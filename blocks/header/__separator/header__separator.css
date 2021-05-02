@@ -1,0 +1,7 @@
+.header__separator {
+  width: 0;
+  height: 20px;
+  margin: 5px 15px;
+
+  border-right: 0.7px solid #A7A6A6;
+}
