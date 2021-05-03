@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'PTRootUI';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/PT-Root-UI_Regular.eot) format('embedded-opentype'),
+       url(../fonts/PT-Root-UI_Regular.woff2) format('woff2'),
+       url(../fonts/PT-Root-UI_Regular.woff) format('woff'),
+       url(../fonts/PT-Root-UI_Regular.web.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'ProtoGrotesk';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/Proto-Grotesk-Light-Web.eot) format('embedded-opentype'),
+       url(../fonts/Proto-Grotesk-Light-Web.woff2) format('woff2'),
+       url(../fonts/Proto-Grotesk-Light-Web.woff) format('woff'),
+       url(../fonts/Proto-Grotesk-Light-Web.ttf) format('truetype');
+}
