@@ -2,6 +2,6 @@
   padding-top: 90px;
   padding-bottom: 82px;
 
-  background-color: #2E2468;
+  background-color: var(--color-dark);
   color: #F3F2F2;
 }
