@@ -1,0 +1,10 @@
+.trailer__link {
+  display: block;
+  text-align: center;
+  font-family: 'ProtoGrotesk';
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.27;
+  letter-spacing: 0.2px;
+  color: var(--color-blue);
+}

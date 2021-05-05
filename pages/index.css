@@ -44,3 +44,15 @@
 @import url(../blocks/assessment/assessment__form-label.css);
 @import url(../blocks/assessment/assessment__form-input.css);
 @import url(../blocks/assessment/assessment__form-pseudo-item.css);
+
+@import url(../blocks/tag/tag.css);
+
+@import url(../blocks/trailer/trailer.css);
+@import url(../blocks/trailer/trailer__photo-container.css);
+@import url(../blocks/trailer/trailer__photo.css);
+@import url(../blocks/trailer/trailer__tags.css);
+@import url(../blocks/trailer/trailer__description-container.css);
+@import url(../blocks/trailer/trailer__description.css);
+@import url(../blocks/trailer/trailer__title.css);
+@import url(../blocks/trailer/trailer__film-info.css);
+@import url(../blocks/trailer/trailer__link.css);
