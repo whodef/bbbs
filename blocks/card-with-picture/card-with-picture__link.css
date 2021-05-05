@@ -7,9 +7,9 @@
   color: #224CFF;
   text-decoration: none;
   margin-top: 15px;
+  transition: color 0.2s;
 }
 
 .card-with-picture__link:hover {
-  transition: color 0.2s;
-  color: #2E2468;
+  color: var(--color-dark);
 }

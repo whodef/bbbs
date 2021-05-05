@@ -12,10 +12,10 @@
   border-radius: 15px;
   outline-style: none;
   padding-top: 2px;
+  transition: opacity 0.2s;
 }
 
 .mentor-select-button:hover {
   cursor: pointer;
-  transition: opacity 0.2s;
   opacity: 0.6;
 }
