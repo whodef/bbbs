@@ -1,0 +1,21 @@
+.assessment__description {
+  margin: 0;
+
+  color: var(--color-light-gray);
+  font-size: 14px;
+  line-height: 1.36;
+  font-weight: 400;
+  letter-spacing: 0.2;
+}
+
+.assessment__description_type_positive {
+  color: var(--color-green);
+}
+
+.assessment__description_type_neutral {
+  color: var(--color-dark-gray);
+}
+
+.assessment__description_type_negative {
+  color: var(--color-orange);
+}

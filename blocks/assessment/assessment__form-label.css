@@ -1,0 +1,9 @@
+.assessment__form-label {
+  display: block;
+
+  margin-right: 15px;
+}
+
+.assessment__form-label:last-of-type {
+  margin-right: 0;
+}

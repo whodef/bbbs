@@ -1,0 +1,45 @@
+<!-- UI kit Оценка (хорошо, нормально, плохо) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Оцените проведенное время</title>
+  <link rel="stylesheet" href="../pages/index.css">
+</head>
+<body class="page">
+
+
+
+  <div class="assessment">
+
+    <fieldset class="assessment__form-fieldset">
+      <label class="assessment__form-label" for="positive">
+        <input class="assessment__form-input" type="radio" name="emoji" id="positive">
+        <span class="assessment__form-pseudo-item assessment__emoji assessment__emoji_type_positive"></span>
+      </label>
+
+      <label class="assessment__form-label" for="neutral">
+        <input class="assessment__form-input" type="radio" name="emoji" id="neutral">
+        <span class="assessment__form-pseudo-item assessment__emoji assessment__emoji_type_neutral"></span>
+      </label>
+
+      <label class="assessment__form-label" for="negative">
+        <input class="assessment__form-input" type="radio" name="emoji" id="negative">
+        <span class="assessment__form-pseudo-item assessment__emoji assessment__emoji_type_negative"></span>
+      </label>
+    </fieldset>
+
+    <p class="assessment__description">Оцените проведенное время</p>
+  </div>
+
+  <!-- Без скрипта не работает -->
+  <script src="../scripts/index.js"></script>
+
+
+
+
+</body>
+</html>

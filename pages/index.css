@@ -28,3 +28,11 @@
 @import url(../blocks/footer/footer__link.css);
 @import url(../blocks/footer/footer__button.css);
 @import url(../blocks/footer/footer__navigation.css);
+
+@import url(../blocks/assessment/assessment.css);
+@import url(../blocks/assessment/assessment__emoji.css);
+@import url(../blocks/assessment/assessment__description.css);
+@import url(../blocks/assessment/assessment__form-fieldset.css);
+@import url(../blocks/assessment/assessment__form-label.css);
+@import url(../blocks/assessment/assessment__form-input.css);
+@import url(../blocks/assessment/assessment__form-pseudo-item.css);
