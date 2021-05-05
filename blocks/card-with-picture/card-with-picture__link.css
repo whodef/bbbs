@@ -1,0 +1,15 @@
+.card-with-picture__link {
+  font-family: ProtoGrotesk;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #224CFF;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.card-with-picture__link:hover {
+  transition: color 0.2s;
+  color: #2E2468;
+}

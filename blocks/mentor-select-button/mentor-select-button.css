@@ -1,0 +1,21 @@
+.mentor-select-button {
+  width: 130px;
+  height: 17px;
+  font-family: PTRootUI;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #464646;
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 15px;
+  outline-style: none;
+  padding-top: 2px;
+}
+
+.mentor-select-button:hover {
+  cursor: pointer;
+  transition: opacity 0.2s;
+  opacity: 0.6;
+}
