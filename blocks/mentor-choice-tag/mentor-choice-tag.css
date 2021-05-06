@@ -1,6 +1,6 @@
-.mentor-select-button {
+.mentor-choice-tag {
   width: 130px;
-  height: 17px;
+  height: 13px;
   font-family: 'PTRootUI', Arial, Helvetica, serif;
   font-size: 10px;
   text-align: center;
@@ -8,14 +8,6 @@
   text-transform: uppercase;
   color: #464646;
   background: rgba(255, 255, 255, 0.3);
-  border: none;
   border-radius: 15px;
-  outline-style: none;
-  padding-top: 2px;
-  transition: opacity 0.2s;
-}
-
-.mentor-select-button:hover {
-  cursor: pointer;
-  opacity: 0.6;
+  padding-top: 4px;
 }
