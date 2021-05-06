@@ -1,0 +1,26 @@
+.annotation__book-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+
+  background-color: var(--color-orange);
+}
+
+.annotation__book-info_type_psychology {
+  background-color: var(--color-light-blue);
+}
+
+@media screen and (max-width: 1023px) {
+  .annotation__book-info {
+    padding: 15px;
+  }
+}

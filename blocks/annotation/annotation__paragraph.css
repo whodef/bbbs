@@ -1,0 +1,16 @@
+.annotation__paragraph {
+  margin-top: 0;
+  margin-bottom: 5px;
+
+  font-family: 'PTRootUI';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.44;
+}
+
+@media screen and (max-width: 1023px) {
+  .annotation__paragraph {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+}

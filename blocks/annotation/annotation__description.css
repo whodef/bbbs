@@ -1,0 +1,9 @@
+.annotation__description {
+  position: relative;
+
+  box-sizing: border-box;
+  padding: 30px;
+
+  border-radius: 30px;
+  background-color: white;
+}
