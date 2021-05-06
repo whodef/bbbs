@@ -56,3 +56,14 @@
 @import url(../blocks/trailer/trailer__title.css);
 @import url(../blocks/trailer/trailer__film-info.css);
 @import url(../blocks/trailer/trailer__link.css);
+
+@import url(../blocks/annotation/annotation__book-image.css);
+@import url(../blocks/annotation/annotation__book-info-container.css);
+@import url(../blocks/annotation/annotation__book-info.css);
+@import url(../blocks/annotation/annotation__book-title.css);
+@import url(../blocks/annotation/annotation__book-authors.css);
+@import url(../blocks/annotation/annotation__book-author.css);
+@import url(../blocks/annotation/annotation__book-release-year.css);
+@import url(../blocks/annotation/annotation__description.css);
+@import url(../blocks/annotation/annotation__paragraph.css);
+@import url(../blocks/annotation/annotation__button.css);

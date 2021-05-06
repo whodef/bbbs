@@ -1,0 +1,23 @@
+.annotation__book-authors {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  box-sizing: border-box;
+  margin-top: 15px;
+  padding-top: 15px;
+  width: 100%;
+}
+
+.annotation__book-authors::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 50%;
+  transform: translateX(50%);
+
+  width: 60px;
+  height: 0;
+  border-top: solid 0.5px black;
+}
