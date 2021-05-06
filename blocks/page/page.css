@@ -16,7 +16,9 @@
   --color-yellow: #F8D162;
   --color-green: #8CDD94;
   --color-error: #FF4E4E;
-  --color-button: #E8E6E6;
+  --color-default-text: #000000;
+  --color-default-background: #FFFFFF;
+  --color-opacity-tag: rgba(255, 255, 255, 0.3);
 
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
