@@ -8,6 +8,10 @@
   line-height: 1.44;
 }
 
+.annotation__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 1023px) {
   .annotation__paragraph {
     font-size: 15px;
