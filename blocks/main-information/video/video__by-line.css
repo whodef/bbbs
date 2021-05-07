@@ -1,0 +1,9 @@
+.video__by-line {
+  margin: 5px auto 0;
+  font-family: 'PTRootUI', Arial, Helvetica, serif;
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--color-dark-gray);
+}
