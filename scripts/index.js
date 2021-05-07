@@ -1,58 +1,56 @@
-// UI kit: Assessment
-const assessmentContainer = document.querySelector('.assessment');
+//Всплывающее окно в меню
+//Заменил обычный .menu__item:hover sub-menu на JS.
+//Всё ради БЭМ!
+(function(){
+  const menuContainer = document.querySelector('.menu__container');
+  const menuItemWhithSubMenu = menuContainer.querySelector('.menu__item-with-sub-menu');
+  const subMenu = menuItemWhithSubMenu.querySelector('.sub-menu');
 
-const assessmentDescription = assessmentContainer.querySelector('.assessment__description');
+  menuItemWhithSubMenu.addEventListener('mouseover', () => {
+    // Если не открыт меню бургер
+    if (!menuContainer.classList.contains('menu__container_opened')) {
+      subMenu.classList.add('sub-menu_visible')
+    }
+  })
 
-const positiveInput = assessmentContainer.querySelector('#positive');
-const positiveInputEmoji = assessmentContainer.querySelector('.assessment__emoji_type_positive');
+  menuItemWhithSubMenu.addEventListener('mouseout', () => {
+    if (!menuContainer.classList.contains('menu__container_opened')) {
+      subMenu.classList.remove('sub-menu_visible')
+    }
+  })
+})();
+// /Всплывающее окно в меню
 
-const neutralInput = assessmentContainer.querySelector('#neutral');
-const neutralInputEmoji = assessmentContainer.querySelector('.assessment__emoji_type_neutral');
+//Нажатие по бургеру
+(function(){
+  const burgerBtn = document.querySelector('.header__button_type_burger-menu');
+  const headerMenuContainer = document.querySelector('.menu__container');
 
-const negativeInput = assessmentContainer.querySelector('#negative');
-const negativeInputEmoji = assessmentContainer.querySelector('.assessment__emoji_type_negative');
+  burgerBtn.addEventListener('click', () => {
+    headerMenuContainer.classList.toggle('menu__container_opened');
+    burgerBtn.classList.toggle('header__button_type_burger-menu');
+    burgerBtn.classList.toggle('header__button_type_close-menu');
+  })
+})();
+// /Нажатие по бургеру
 
-// Точно есть более изящный способ!
-positiveInput.addEventListener('change', () => {
-  // Меняет фоновое изображение на активный смайлик
-  positiveInputEmoji.classList.add('assessment__emoji_type_positive-active');
+// На обратный скролл меню появляется
+(function(){
+  const header = document.querySelector('.header');
 
-  // Удаляем фоновые изображения на остальных смайликах
-  neutralInputEmoji.classList.remove('assessment__emoji_type_neutral-active');
-  negativeInputEmoji.classList.remove('assessment__emoji_type_negative-active');
+  let currentYpos = window.pageYOffset;
+  let prevYpos = currentYpos;
+  document.addEventListener('scroll', () => {
+    currentYpos = window.pageYOffset;
 
-  //Меняем текст описания
-  assessmentDescription.textContent = "Было классно!";
+    // if (currentYpos < prevYpos) {
+    //   header.classList.add('header_fixed');
+    // }
+    // else {
+    //   header.classList.remove('header_fixed');
+    // }
 
-  //Меняем цвет описания
-  assessmentDescription.classList.add('assessment__description_type_positive')
-  assessmentDescription.classList.remove('assessment__description_type_neutral')
-  assessmentDescription.classList.remove('assessment__description_type_negative')
-})
-
-neutralInput.addEventListener('change', () => {
-  neutralInputEmoji.classList.add('assessment__emoji_type_neutral-active');
-
-  positiveInputEmoji.classList.remove('assessment__emoji_type_positive-active');
-  negativeInputEmoji.classList.remove('assessment__emoji_type_negative-active');
-
-  assessmentDescription.textContent = "Нормально";
-
-  assessmentDescription.classList.remove('assessment__description_type_positive')
-  assessmentDescription.classList.add('assessment__description_type_neutral')
-  assessmentDescription.classList.remove('assessment__description_type_negative')
-})
-
-negativeInput.addEventListener('change', () => {
-  negativeInputEmoji.classList.add('assessment__emoji_type_negative-active');
-
-  positiveInputEmoji.classList.remove('assessment__emoji_type_positive-active');
-  neutralInputEmoji.classList.remove('assessment__emoji_type_neutral-active');
-
-  assessmentDescription.textContent = "Что-пошло не так";
-
-  assessmentDescription.classList.remove('assessment__description_type_positive')
-  assessmentDescription.classList.remove('assessment__description_type_neutral')
-  assessmentDescription.classList.add('assessment__description_type_negative')
-})
-// /Assessment
+    prevYpos = currentYpos;
+  })
+})();
+// На обратный скролл меню появляется
