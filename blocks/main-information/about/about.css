@@ -1,0 +1,13 @@
+.about {
+  margin:0;
+  padding: 0;
+  width: 870px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background-color: var(--color-green);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
