@@ -1,12 +1,10 @@
-.menu {
-  display: grid;
-  /* Надо будет исправить */
-  grid-template-columns: repeat(6, auto);
-  column-gap: 30px;
-  row-gap: 20px;
+.menu_type_socials {
+  display: none;
+}
 
-  margin: 0;
-  padding: 0;
-
-  list-style: none;
+@media screen and (max-width: 1439px) {
+  .menu_type_socials {
+    display: flex;
+    margin-left: 26px;
+  }
 }

@@ -1,0 +1,20 @@
+.menu__list {
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+
+  font-family: 'ProtoGrotesk';
+  list-style: none;
+}
+
+.menu__list_place_footer {
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1439px) {
+  .menu__list_place_header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

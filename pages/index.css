@@ -8,13 +8,18 @@
 @import url(../blocks/header/header__logo.css);
 @import url(../blocks/header/header__buttons-container.css);
 @import url(../blocks/header/header__button.css);
-@import url(../blocks/header/header__button_type_search.css);
-@import url(../blocks/header/header__button_type_account.css);
 @import url(../blocks/header/header__separator.css);
 
+@import url(../blocks/menu/menu__container.css);
 @import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/menu__list.css);
+@import url(../blocks/menu/menu__item.css);
 @import url(../blocks/menu/menu__link.css);
-@import url(../blocks/menu/menu_place_footer.css);
+
+@import url(../blocks/sub-menu/sub-menu.css);
+@import url(../blocks/sub-menu/sub-menu__list.css);
+@import url(../blocks/sub-menu/sub-menu__item.css);
+@import url(../blocks/sub-menu/sub-menu__link.css);
 
 @import url(../blocks/link/link.css);
 
@@ -31,7 +36,6 @@
 @import url(../blocks/footer/footer__info.css);
 @import url(../blocks/footer/footer__logo.css);
 @import url(../blocks/footer/footer__label.css);
-@import url(../blocks/footer/footer__label_type_copyright.css);
 @import url(../blocks/footer/footer__block.css);
 @import url(../blocks/footer/footer__link.css);
 @import url(../blocks/footer/footer__button.css);

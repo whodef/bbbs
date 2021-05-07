@@ -1,0 +1,23 @@
+.menu__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .menu__container {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-background);
+    border-radius: 0px 0px 30px 30px;
+    padding: 35px 0 50px;
+  }
+
+  .menu__container_opened {
+    display: flex;
+    align-items: flex-start;
+  }
+}

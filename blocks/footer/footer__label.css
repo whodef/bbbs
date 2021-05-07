@@ -10,3 +10,9 @@
 .footer__label:last-of-type {
   margin-right: 0;
 }
+
+.footer__label_type_copyright {
+  margin-bottom: 12px;
+
+  color: #C8D1FF;
+}

@@ -5,3 +5,9 @@
 
   border-right: 0.7px solid #A7A6A6;
 }
+
+@media screen and (max-width: 1439px) {
+  .header__separator {
+    display: none;
+  }
+}
