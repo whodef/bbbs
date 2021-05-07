@@ -52,7 +52,7 @@
       font-family: 'ProtoGrotesk', Arial, Helvetica, serif;
       font-weight: 300;
       font-size: 100px;
-      line-height: 6.6;
+      line-height: 1;
       letter-spacing: -2px;
       color: var(--color-default-text);
     }
@@ -66,21 +66,26 @@
       color: var(--color-default-text);
       font-family: 'ProtoGrotesk', Arial, Helvetica, serif;
     }
+    .calendar__form-contain {
+      display: flex;
+      flex-direction: row;
+    }
     .calendar__form-input {
       font-size: 14px;
       letter-spacing: 0.2px;
       line-height: 1.2;
       font-family: 'ProtoGrotesk', Arial, Helvetica, serif;
 
-      margin-top: 32px;
-      padding-bottom: 5px;
+      margin-top: 20px;
       width: 100%;
       height: 20px;
       border: none;
       outline: none;
       border-bottom: 1px solid rgba(0, 0, 0, .2);
     }
-    .calendar__form-personal-data {}
+    .calendar__form-input_without-border {
+      border: none;
+    }
     .calendar__save-button {
       padding: 13px;
       letter-spacing: 0.2px;
@@ -133,11 +138,16 @@
 
 <!--TODO: Довести до ума инпуты -->
     <form class="calendar__form" action="#" name="">
-      <input class="calendar__form-input" type="time" name="input-time" placeholder="Время" value="12:00-14:00" required>
-      <input class="calendar__form-input" type="text" name="input-address" placeholder="Адрес" value="Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)" required>
-      <div class="calendar__form-personal-data">
-        <input class="calendar__form-input" type="text" name="input-name" placeholder="Имя" value="Александра" required>
-        <input class="calendar__form-input" type="tel" name="input-tel" placeholder="Телефон" value="+7 926 356-78-90" required>
+      <div class="calendar__form-contain">
+        <input class="calendar__form-input" type="time" name="input-time" placeholder="С какого времени" value="12:00-14:00" required>
+        <input class="calendar__form-input" type="time" name="input-time" placeholder="По какое время" value="12:00-14:00" required>
+      </div>
+      <div class="calendar__form-contain">
+        <input class="calendar__form-input" type="text" name="input-address" placeholder="Адрес" value="Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)" required>
+      </div>
+      <div class="calendar__form-contain">
+        <input class="calendar__form-input calendar__form-input_without-border" type="text" name="input-name" placeholder="Имя" value="Александра" required>
+        <input class="calendar__form-input calendar__form-input_without-border" type="tel" name="input-tel" placeholder="Телефон" value="+7 926 356-78-90" required>
       </div>
     </form>
 
