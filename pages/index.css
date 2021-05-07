@@ -16,7 +16,7 @@
 @import url(../blocks/menu/menu__link.css);
 @import url(../blocks/menu/menu_place_footer.css);
 
-@import url(../blocks/menu/link.css);
+@import url(../blocks/link/link.css);
 
 @import url(../blocks/mentor-choice-tag/mentor-choice-tag.css);
 
@@ -65,5 +65,7 @@
 @import url(../blocks/annotation/annotation__book-author.css);
 @import url(../blocks/annotation/annotation__book-release-year.css);
 @import url(../blocks/annotation/annotation__description.css);
+@import url(../blocks/annotation/annotation__scroll-container.css);
 @import url(../blocks/annotation/annotation__paragraph.css);
-@import url(../blocks/annotation/annotation__button.css);
+
+@import url(../blocks/scrolling-element/scrolling-element.css);

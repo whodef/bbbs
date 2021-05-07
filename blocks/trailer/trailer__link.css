@@ -8,3 +8,10 @@
   letter-spacing: 0.2px;
   color: var(--color-blue);
 }
+
+@media screen and (max-width: 639px) {
+  .trailer__link {
+    font-size: 12px;
+    line-height: 1.41;
+  }
+}
