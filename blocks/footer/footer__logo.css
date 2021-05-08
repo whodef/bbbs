@@ -5,3 +5,11 @@
 
   object-fit: cover;
 }
+
+@media screen and (max-width: 1439px) {
+  .footer__logo {
+    margin-right: 0;
+    width: 252px;
+    height: 46px;
+  }
+}

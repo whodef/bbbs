@@ -5,3 +5,9 @@
 
   margin-right: 132px;
 }
+
+@media screen and (max-width: 1439px) {
+  .footer__info {
+    margin-right: 0;
+  }
+}

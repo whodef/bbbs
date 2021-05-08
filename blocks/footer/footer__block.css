@@ -1,5 +1,10 @@
 .footer__block {
-  /* Вот от этого можно избавиться наверное */
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__block {
+    flex-direction: column;
+  }
 }

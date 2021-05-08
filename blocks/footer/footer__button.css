@@ -4,9 +4,19 @@
   padding: 15px 20px;
   width: fit-content;
 
-  border: 1px solid #F3F2F2;
+  border: 1px solid var(--color-background);
   border-radius: 100px;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.27;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__button {
+    order: 3;
+    padding: 12px 15px;
+
+    font-size: 12px;
+    line-height: 1.42;
+  }
 }

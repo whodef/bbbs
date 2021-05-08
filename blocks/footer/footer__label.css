@@ -16,3 +16,10 @@
 
   color: #C8D1FF;
 }
+
+@media screen and (max-width: 1439px) {
+  .footer__label {
+    font-size: 12px;
+    line-height: 1.42;
+  }
+}

@@ -1,5 +1,10 @@
 .footer__navigation {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  gap: 44px;
+  display: flex;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__navigation {
+    flex-direction: column;
+    width: 100%;
+  }
 }
