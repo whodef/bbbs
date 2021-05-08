@@ -5,6 +5,7 @@
 @import url(../blocks/page/__section/page__section.css);
 
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/header__content.css);
 @import url(../blocks/header/header__logo.css);
 @import url(../blocks/header/header__buttons-container.css);
 @import url(../blocks/header/header__button.css);
@@ -73,3 +74,5 @@
 @import url(../blocks/annotation/annotation__paragraph.css);
 
 @import url(../blocks/scrolling-element/scrolling-element.css);
+
+@import url(../blocks/content/content.css);
