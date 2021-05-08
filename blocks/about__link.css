@@ -1,0 +1,10 @@
+.about__link {
+  text-decoration: none;
+  color: var(--color-blue);
+  text-align: center;
+  transition: opacity 0.3s ease;
+}
+
+.about__link:hover {
+  opacity: 0.7;
+}

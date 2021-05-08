@@ -1,6 +1,14 @@
 .about__options {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  column-gap: 30px;
   padding: 80px 0 120px;
+}
+
+@media screen and (max-width: 1366px) {
+  /* стили для для экранов с разрешением 1366px по ширине и меньше */
+  .about__options {
+    grid-template-columns: auto;
+    padding: 50px 0 70px;
+  }
 }

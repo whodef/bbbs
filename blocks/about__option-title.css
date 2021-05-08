@@ -3,21 +3,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  grid-row-start: 1;
   text-align: center;
   border-radius: 70px;
   background-color: var(--color-light-blue);
 }
 
-
-/*
-Надо придумать, как раскрасить блоки в разные цвета используя минимум кода
-
-.about__option:nth-of-type(2){
+.about__option-title:nth-of-type(3){
   background-color: var(--color-orange);
 }
 
-.about__option:last-of-type{
+.about__option-title:nth-of-type(5){
   background-color: var(--color-green);
 }
-*/
 
+@media screen and (max-width: 1366px) {
+  /* стили для для экранов с разрешением 1366px по ширине и меньше */
+  .about__option-title {
+    grid-row-start: inherit;
+  }
+}

@@ -4,3 +4,11 @@
   align-items: center;
   padding: 80px 0;
 }
+
+@media screen and (max-width: 1366px) {
+  /* стили для для экранов с разрешением 1366px по ширине и меньше */
+  .about__info {
+    flex-direction: column;
+    padding: 30px 0 50px 0;
+  }
+}

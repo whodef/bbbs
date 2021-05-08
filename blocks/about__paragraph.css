@@ -1,4 +1,7 @@
 .about__paragraph {
+  font-family: 'PTRootUI', Arial, Helvetica, serif;
+  font-size: 18px;
+  line-height: 26px;
   margin: 0;
   padding-bottom: 35px;
 }

@@ -32,8 +32,9 @@
 @import url(../blocks/about__paragraph.css);
 @import url(../blocks/about__aim.css);
 @import url(../blocks/about__options.css);
-@import url(../blocks/about__option.css);
 @import url(../blocks/about__option-title.css);
+@import url(../blocks/about__option-content.css);
+@import url(../blocks/about__link.css);
 
 
 

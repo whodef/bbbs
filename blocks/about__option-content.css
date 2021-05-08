@@ -1,0 +1,26 @@
+.about__option-content {
+  min-height: 265px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-row-start: 2;
+  background-color: var(--color-default-background);
+  border-radius: 30px;
+  padding: 30px;
+}
+
+@media screen and (max-width: 1800px) {
+  /* стили для для экранов с разрешением 1800px по ширине и меньше */
+  .about__option-content {
+    min-height: 369px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  /* стили для для экранов с разрешением 1366px по ширине и меньше */
+  .about__option-content {
+    min-height: 155px;
+    grid-row-start: inherit;
+    margin-bottom: 30px;
+  }
+}
