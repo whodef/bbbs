@@ -77,13 +77,13 @@
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/footer__content.css);
-@import url(../blocks/footer/footer__info.css);
 @import url(../blocks/footer/footer__logo.css);
+@import url(../blocks/footer/footer__labels.css);
+@import url(../blocks/footer/footer__links.css);
 @import url(../blocks/footer/footer__label.css);
-@import url(../blocks/footer/footer__block.css);
 @import url(../blocks/footer/footer__link.css);
 @import url(../blocks/footer/footer__button.css);
-@import url(../blocks/footer/footer__navigation.css);
+@import url(../blocks/footer/footer__separator.css);
 
 @import url(../blocks/assessment/assessment.css);
 @import url(../blocks/assessment/assessment__emoji.css);

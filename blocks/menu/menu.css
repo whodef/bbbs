@@ -2,9 +2,24 @@
   display: none;
 }
 
+.menu_type_footer-socials {
+  grid-area: socials;
+}
+
+.menu_type_footer-nav {
+  grid-area: menu;
+
+  margin-right: 44px;
+}
+
 @media screen and (max-width: 1439px) {
   .menu_type_socials {
     display: flex;
+
     margin-left: 26px;
+  }
+
+  .menu_type_footer-nav {
+    margin-right: 0;
   }
 }
