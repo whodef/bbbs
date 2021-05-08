@@ -21,54 +21,86 @@
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="page">
+<header class="header">
+  <div class="header__content">
+    <a class="link header__logo" href="#" title="На главную" target = “_blank” rel="noopener noreferrer"></a>
+    <div class="menu__container">
+      <nav class="menu menu_place_header">
+        <ul class="menu__list menu__list_place_header">
+          <li class="menu__item">
+            <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Календарь</a>
+          </li>
+          <li class="menu__item">
+            <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Куда пойти</a>
+          </li>
+          <li class="menu__item">
+            <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Вопросы</a>
+          </li>
+          <li class="menu__item menu__item-with-sub-menu">
+            <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Читать и смотреть</a>
+            <div class="sub-menu">
+              <ul class="sub-menu__list">
+                <li class="sub-menu__item">
+                  <a class="link sub-menu__link" href="#" target="_self">Справочник</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a class="link sub-menu__link" href="#" target="_self">Видео</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a class="link sub-menu__link" href="#" target="_self">Статьи</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a class="link sub-menu__link" href="#" target="_self">Фильмы</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a class="link sub-menu__link" href="#" target="_self">Книги</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu__item">
+            <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Права детей</a>
+          </li>
+          <li class="menu__item">
+            <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Истории</a>
+          </li>
+        </ul>
+      </nav>
 
-<!--  <header class="page__section header">-->
-<!--    <a class="link header__logo" href="#" title="На главную" target = “_blank” rel="noopener noreferrer"></a>-->
+      <nav class="menu menu_place_header menu_type_socials">
+        <ul class="menu__list menu__list_place_header">
+          <li class="menu__item">
+            <a class="link menu__link" href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
+          </li>
+          <li class="menu__item">
+            <a class="link menu__link" href="#" target="_blank" rel="noopener noreferrer">VKontakte</a>
+          </li>
+          <li class="menu__item">
+            <a class="link menu__link" href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+          </li>
+          <li class="menu__item">
+            <a class="link menu__link" href="#" target="_blank" rel="noopener noreferrer">Уoutube</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
-<!--    <nav>-->
-<!--      <ul class="menu">-->
-<!--        <li class="menu__item">-->
-<!--          <a class="link menu__link" href="#" target = “_blank” rel="noopener noreferrer">Календарь</a>-->
-<!--        </li>-->
-
-<!--        <li class="menu__item">-->
-<!--          <a class="link menu__link" href="#" target = “_blank” rel="noopener noreferrer">Куда пойти</a>-->
-<!--        </li>-->
-
-<!--        <li class="menu__item">-->
-<!--          <a class="link menu__link" href="#" target = “_blank” rel="noopener noreferrer">Вопросы</a>-->
-<!--        </li>-->
-
-<!--        <li class="menu__item">-->
-<!--          <a class="link menu__link" href="#" target = “_blank” rel="noopener noreferrer">Читать и смотреть</a>-->
-<!--        </li>-->
-
-<!--        <li class="menu__item">-->
-<!--          <a class="link menu__link" href="#" target = “_blank” rel="noopener noreferrer">Права детей</a>-->
-<!--        </li>-->
-
-<!--        <li class="menu__item">-->
-<!--          <a class="link menu__link" href="#" target = “_blank” rel="noopener noreferrer">Истории</a>-->
-<!--        </li>-->
-<!--      </ul>-->
-<!--    </nav>-->
-
-<!--    <div class="header__buttons-container">-->
-<!--      &lt;!&ndash; Здесь нужно будет переделать, это не ссылка &ndash;&gt;-->
-<!--      <a class="link header__button header__button_type_search" href="#" title="Поиск по сайту" target = “_blank” rel="noopener noreferrer"></a>-->
-
-<!--      <div class="header__separator"></div>-->
-
-<!--      <a class="link header__button header__button_type_account" href="#" title="Личный кабинет" target = “_blank” rel="noopener noreferrer"></a>-->
-<!--    </div>-->
-<!--  </header>-->
+    <div class="header__buttons-container">
+      <!-- Здесь нужно будет переделать, это не ссылка -->
+      <button class="link header__button header__button_type_search" type="button"></button>
+      <div class="header__separator"></div>
+      <a class="link header__button header__button_type_account" href="#" title="Личный кабинет" target="_self" rel="noopener noreferrer"></a>
+    </div>
+    <button class="link header__button header__button_type_burger-menu" type="button"></button>
+  </div>
+</header>
 
   <main class="content">
     <section class="main-information">
       <div class="main-information-net">
         <div class="about">
           <div class="about__logo-container">
-            <img class="about__logo" src="./images/icons/logo-bbbs.svg" alt="Лого" />
+            <img class="about__logo-preview" src="./images/icons/logo-bbbs.svg" alt="Лого" />
           </div>
           <div class="about__text-container">
             <p class="about__text">Наставники.про&nbsp;&mdash; цифровая информационная платформа организации &laquo;Старшие Братья Старшие Сестры&raquo;. Созданная для поддержки наставников программы.</p>
@@ -81,17 +113,14 @@
         </div>
       </div>
       <div class="main-information-net">
-        <!-- Блок из IU-Kit с картинкой, который делал Николай -->
         <div class="card-with-picture">
           <div class="mentor-choice-tag">выбор наставника</div>
           <h2 class="card-with-picture__title">Сплав на&nbsp;байдарках в&nbsp;две строки</h2>
           <p class="card-with-picture__subtitle">усадьба Архангельское в две строки</p>
           <img class="card-with-picture__image" src="./images/card-image.jpg" alt="Иллюстрация к карточке" />
-          <a class="link card-with-picture__link" href="#">перейти на сайт</a>
+          <a class="link card-with-picture__link" href="#" target="_blank">перейти на сайт</a>
         </div>
-        <!-- Конец блока с картинкой, который делал Николай -->
 
-        <!-- Блок из IU-Kit, который делала Татьяна -->
         <div class="description-preview">
           <div class="scrolling-element description-preview__scroll-contain">
             <h2 class="description-preview__title">Девочка, 10 лет. Познавательный</h2>
@@ -99,17 +128,14 @@
               Аннотация статьи в&nbsp;несколько абзацев. Аннотация статьи в&nbsp;несколько абзацев. В&nbsp;тот момент, как ребёнок научился говорить, и&nbsp;не&nbsp;одно слово, а&nbsp;задавать бесконечное количество вопросов, жизнь меняется. Вы&nbsp;будете не&nbsp;понимать друг друга, потом понимать чуть лучше&nbsp;и, в&nbsp;конце концов, научитесь даже шутить. Аннотация статьи в&nbsp;несколько абзацев.</article>
           </div>
         </div>
-        <!-- Конец блока из IU-Kit, который делала Татьяна -->
       </div>
         <div class="article">
           <article class="article__text">Развитие детей-сирот отличается от&nbsp;развития детей, живущих в&nbsp;семьях. Все этапы развития у&nbsp;детей-сирот проходят с&nbsp;искажениями и&nbsp;имеют ряд негативных особенностей.</article>
-          <a class="link article__link" href="#">читать статью</a>
+          <a class="link article__link" href="#" target="_self">читать статью</a>
         </div>
-
     </section>
 
     <section class="video-section">
-      <!-- Блок из IU-Kit, который делал Данил -->
       <div class="trailer-net">
         <div class="trailer">
           <div class="trailer__photo-container">
@@ -123,7 +149,7 @@
             <div class="trailer__description">
               <h3 class="trailer__title">Жутко громко и запредельно близко</h3>
               <p class="trailer__film-info">Василий Сигарев, Борисов-Мусотов (Россия), 2009 год</p>
-              <a class="link trailer__link" href="#">смотреть трейлер</a>
+              <a class="link trailer__link" href="#" target="_self">смотреть трейлер</a>
             </div>
           </div>
         </div>
@@ -140,7 +166,7 @@
             <div class="trailer__description">
               <h3 class="trailer__title">Жутко громко и запредельно близко</h3>
               <p class="trailer__film-info">Василий Сигарев, Борисов-Мусотов (Россия), 2009 год</p>
-              <a class="link trailer__link" href="#">смотреть трейлер</a>
+              <a class="link trailer__link" href="#" target="_self">смотреть трейлер</a>
             </div>
           </div>
         </div>
@@ -157,7 +183,7 @@
             <div class="trailer__description">
               <h3 class="trailer__title">Жутко громко и запредельно близко</h3>
               <p class="trailer__film-info">Василий Сигарев, Борисов-Мусотов (Россия), 2009 год</p>
-              <a class="link trailer__link" href="#">смотреть трейлер</a>
+              <a class="link trailer__link" href="#" target="_self">смотреть трейлер</a>
             </div>
           </div>
         </div>
@@ -174,18 +200,17 @@
             <div class="trailer__description">
               <h3 class="trailer__title">Жутко громко и запредельно близко</h3>
               <p class="trailer__film-info">Василий Сигарев, Борисов-Мусотов (Россия), 2009 год</p>
-              <a class="link trailer__link" href="#">смотреть трейлер</a>
+              <a class="link trailer__link" href="#" target="_self">смотреть трейлер</a>
             </div>
           </div>
         </div>
       </div>
-      <!-- Конец блока из IU-Kit, который делал Данил -->
 
       <div class="video">
         <div class="video__description">
           <h2 class="video__title">Эфир с выпускником нашей программы</h2>
           <p class="video__by-line">Иван Рустаев, выпускник программы</p>
-          <a class="link video__link" href="#">смотреть видео</a>
+          <a class="link video__link" href="#" target="_self">смотреть видео</a>
         </div>
 
         <div class="video__frame">
@@ -226,85 +251,71 @@
     <section class="second-article">
       <div class="article article_green">
         <article class="article__text">У таких детей возникает ощущение отверженности. Оно приводит к напряженности и недоверию к людям и, как итог, к реальному неприятию себя и окружающих.</article>
-        <a class="link article__link" href="#">читать статью</a>
+        <a class="link article__link" href="#" target="_self">читать статью</a>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="footer__content">
-      <div class="footer__info">
-        <div class="footer__block">
-          <!-- Надо будет переделать, очень мыльное качество PNG -->
-          <img class="footer__logo" src="./images/footer-logo.png" alt="Логотип БББС">
-
-          <a class="link footer__button" href="#" target = “_blank” rel="noopener noreferrer">Помочь деньгами</a>
-        </div>
-
-
-        <div>
-          <p class="footer__label footer__label_type_copyright">&copy; Старшие Братья Старшие Сестры</p>
-
-          <div class="footer__block">
-            <p class="footer__label">Разработка – студенты <a class="link footer__link" href="#" target = “_blank” rel="noopener noreferrer">Яндекс.Практикум</a></p>
-
-            <p class="footer__label">Концепция и дизайн – <a class="link footer__link" href="#" target = “_blank” rel="noopener noreferrer">krkr.design</a></p>
-          </div>
-        </div>
+<footer class="footer">
+  <div class="footer__content">
+    <img class="footer__logo" src="./images/icons/footer-logo.svg" alt="Логотип БББС">
+    <a class="link footer__button" href="#" target="_blank" rel="noopener noreferrer">Помочь деньгами</a>
+    <div class="footer__labels">
+      <p class="footer__label footer__label_type_copyright">&copy; Старшие Братья Старшие Сестры</p>
+      <div class="footer__links">
+        <p class="footer__label">Разработка – студенты
+          <a class="link footer__link" href="#" target="_blank" rel="noopener noreferrer">Яндекс.Практикум</a>
+        </p>
+        <p class="footer__label">Концепция и дизайн –
+          <a class="link footer__link" href="#" target="_blank" rel="noopener noreferrer">krkr.design</a>
+        </p>
       </div>
-
-      <div class="footer__navigation">
-        <nav>
-          <ul class="menu menu_place_footer">
-            <li class="menu__item">
-              <a class="link menu__link" href="#" target = “_blank” rel="noopener noreferrer">Календарь</a>
-            </li>
-
-            <li class="menu__item">
-              <a class="link menu__link" href="#" target = “_blank” rel="noopener noreferrer">Куда пойти</a>
-            </li>
-
-            <li class="menu__item">
-              <a class="link menu__link" href="#" target = “_blank” rel="noopener noreferrer">Вопросы</a>
-            </li>
-
-            <li class="menu__item">
-              <a class="link menu__link" href="#" target = “_blank” rel="noopener noreferrer">Читать и смотреть</a>
-            </li>
-
-            <li class="menu__item">
-              <a class="link menu__link" href="#" target = “_blank” rel="noopener noreferrer">Права детей</a>
-            </li>
-
-            <li class="menu__item">
-              <a class="link menu__link" href="#" target = “_blank” rel="noopener noreferrer">Истории</a>
-            </li>
-          </ul>
-        </nav>
-
-        <nav>
-          <ul class="menu menu_place_footer">
-            <li class="menu__item">
-              <a class="link menu__link" href="#" target = “_blank” rel="noopener noreferrer">Facebook</a>
-            </li>
-
-            <li class="menu__item">
-              <a class="link menu__link" href="#" target = “_blank” rel="noopener noreferrer">VKontakte</a>
-            </li>
-
-            <li class="menu__item">
-              <a class="link menu__link" href="#" target = “_blank” rel="noopener noreferrer">Instagram</a>
-            </li>
-
-            <li class="menu__item">
-              <a class="link menu__link" href="#" target = “_blank” rel="noopener noreferrer">Уoutube</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-
     </div>
-  </footer>
 
+    <nav class="menu menu_type_footer-nav">
+      <ul class="menu__list menu__list_place_footer">
+        <li class="menu__item menu__item_place_footer">
+          <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">О проекте</a>
+        </li>
+        <li class="menu__item menu__item_place_footer">
+          <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Календарь</a>
+        </li>
+        <li class="menu__item menu__item_place_footer">
+          <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Куда пойти</a>
+        </li>
+        <li class="menu__item menu__item_place_footer">
+          <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Вопросы</a>
+        </li>
+        <li class="menu__item menu__item_place_footer">
+          <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Читать и смотреть</a>
+        </li>
+        <li class="menu__item menu__item_place_footer">
+          <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Права детей</a>
+        </li>
+        <li class="menu__item menu__item_place_footer">
+          <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Истории</a>
+        </li>
+      </ul>
+      <span class="footer__separator"></span>
+    </nav>
+
+    <nav class="menu menu_type_footer-socials">
+      <ul class="menu__list menu__list_place_footer">
+        <li class="menu__item menu__item_place_footer">
+          <a class="link menu__link" href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
+        </li>
+        <li class="menu__item menu__item_place_footer">
+          <a class="link menu__link" href="#" target="_blank" rel="noopener noreferrer">VKontakte</a>
+        </li>
+        <li class="menu__item menu__item_place_footer">
+          <a class="link menu__link" href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </li>
+        <li class="menu__item menu__item_place_footer">
+          <a class="link menu__link" href="#" target="_blank" rel="noopener noreferrer">Уoutube</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</footer>
 </body>
 </html>

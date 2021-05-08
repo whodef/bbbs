@@ -29,7 +29,7 @@
 
 @import url(../blocks/about.css);
 @import url(../blocks/about__logo-container.css);
-@import url(../blocks/about__logo.css);
+@import url(../blocks/about__logo-preview.css);
 @import url(../blocks/about__text-container.css);
 @import url(../blocks/about__text.css);
 

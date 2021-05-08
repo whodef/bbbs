@@ -1,5 +1,5 @@
 .about__logo {
-  margin: 40px 0 0 30px;
-  width: 238px;
-  height: 46px;
+  display: block;
+  width: 357px;
+  margin: 0 auto;
 }
