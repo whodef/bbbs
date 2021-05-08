@@ -1,0 +1,6 @@
+.about__options {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 80px 0 120px;
+}

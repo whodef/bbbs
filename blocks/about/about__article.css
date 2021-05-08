@@ -1,0 +1,12 @@
+.about__article {
+  max-width: 540px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-default-background);
+  border-radius: 30px;
+  font-family: 'PTRootUI', Arial, Helvetica, serif;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0;
+  padding: 52px 30px;
+}

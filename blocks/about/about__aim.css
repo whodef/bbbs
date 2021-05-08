@@ -1,0 +1,12 @@
+.about__aim {
+  max-width: 1170px;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 1.14;
+  color: var(--color-dark-text);
+  text-align: center;
+  padding: 60px 0;
+  margin: 0;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}

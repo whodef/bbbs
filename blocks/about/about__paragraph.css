@@ -1,0 +1,8 @@
+.about__paragraph {
+  margin: 0;
+  padding-bottom: 35px;
+}
+
+.about__paragraph:last-of-type {
+  padding-bottom: 0;
+}
