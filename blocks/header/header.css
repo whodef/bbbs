@@ -1,22 +1,19 @@
 .header {
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  gap: 20px;
-  justify-content: space-between;
-  justify-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
 
-  margin-top: 40px;
-  margin-bottom: 80px;
-  min-height: 30px;
-}
+  box-sizing: border-box;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  width: 100%;
 
-@media screen and (max-width: 1439px) {
-  .header {
-    grid-template-columns: 30px auto 30px;
-  }
+  background-color: var(--color-background);
 }
 
 .header_fixed {
   position: fixed;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
 }
