@@ -1,7 +1,9 @@
 .comment__text {
+  max-width: 770px;
+  width: 100%;
   font-family: 'ProtoGrotesk', Arial, Helvetica, serif;
   font-weight: 300;
   font-size: 23px;
-  line-height: 2;
+  line-height: 30px;
   color: var(--color-default-text);
 }

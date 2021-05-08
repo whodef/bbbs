@@ -1,9 +1,8 @@
 .card-with-picture__subtitle {
-  font-family: PTRootUI;
+  margin: 5px 0 0;
+  font-family: 'PTRootUI', Arial, Helvetica, serif;
   font-size: 14px;
   line-height: 19px;
   letter-spacing: 0.2px;
   color: #464646;
-  margin: 0;
-  margin-top: 5px;
 }

@@ -1,5 +1,13 @@
 .trailer {
+  margin-right: 30px;
+  max-width: 420px;
+  width: 100%;
+  height: calc(169px + 239px);
   border-radius: 30px;
   background-color: white;
   overflow: hidden;
+}
+
+.trailer:nth-child(4) {
+  margin-right: 0;
 }

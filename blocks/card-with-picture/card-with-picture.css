@@ -1,8 +1,11 @@
 .card-with-picture {
+  margin: 0;
+  padding: 15px 30px 30px;
+  max-width: 1185px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: var(--color-yellow);
   border-radius: 30px;
-  padding: 15px 30px 30px 30px;
 }

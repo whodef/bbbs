@@ -1,0 +1,7 @@
+.about__logo-container {
+  width: 100%;
+  height: 156px;
+  background: url("../../../images/about-logo-container.svg") no-repeat;
+  border-radius: 3px 200px 3px 30px;
+  display: flex;
+}

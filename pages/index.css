@@ -25,15 +25,20 @@
 @import url(../blocks/link/link.css);
 
 @import url(../blocks/main-information/main-information.css);
+@import url("../blocks/main-information/main-information-net.css");
 
 @import url(../blocks/main-information/about/about.css);
+@import url(../blocks/main-information/about/about__logo-container.css);
 @import url(../blocks/main-information/about/about__logo.css);
+@import url(../blocks/main-information/about/about__text-container.css);
 @import url(../blocks/main-information/about/about__text.css);
 
 @import url(../blocks/main-information/article/article.css);
+@import url(../blocks/main-information/article/second-article.css);
 @import url(../blocks/main-information/article/article__link.css);
 @import url(../blocks/main-information/article/article__text.css);
 @import url(../blocks/main-information/article/article_green.css);
+
 
 @import url(../blocks/main-information/comments/comments.css);
 @import url(../blocks/main-information/comments/comment.css);
@@ -59,6 +64,7 @@
 @import url(../blocks/main-information/video/video__link.css);
 @import url(../blocks/main-information/video/video__title.css);
 @import url(../blocks/main-information/video/video__frame.css);
+@import url(../blocks/main-information/video-section.css);
 
 
 @import url(../blocks/mentor-choice-tag/mentor-choice-tag.css);
@@ -89,6 +95,7 @@
 
 @import url(../blocks/tag/tag.css);
 
+@import url(../blocks/trailer/trailer-net.css);
 @import url(../blocks/trailer/trailer.css);
 @import url(../blocks/trailer/trailer__photo-container.css);
 @import url(../blocks/trailer/trailer__photo.css);

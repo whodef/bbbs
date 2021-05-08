@@ -1,0 +1,10 @@
+.about__text {
+  margin: 122px auto;
+  max-width: 570px;
+  font-family: 'ProtoGrotesk', Arial, Helvetica, serif;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 30px;
+  text-align: center;
+  color: var(--color-default-text);
+}

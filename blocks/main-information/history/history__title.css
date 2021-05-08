@@ -1,10 +1,11 @@
 .history__title {
   margin: 0 auto;
-  padding-top: 238px;
+  padding: 238px 0;
+  position: relative;
   font-family: 'ProtoGrotesk', Arial, Helvetica, serif;
   font-weight: 300;
   font-size: 23px;
-  line-height: 2;
+  line-height: 30px;
   text-align: center;
   overflow: hidden;
   color: var(--color-default-background);

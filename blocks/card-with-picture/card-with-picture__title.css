@@ -1,8 +1,11 @@
 .card-with-picture__title {
-  font-family: ProtoGrotesk;
+  margin: 15px auto 0;
+  font-family: 'ProtoGrotesk', Arial, Helvetica, serif;
   font-weight: 300;
   font-size: 23px;
   line-height: 30px;
-  margin: 0;
-  margin-top: 15px;
+  text-align: center;
+  color: var(--color-default-text);
+  display: flex;
+  align-self: stretch;
 }

@@ -1,5 +1,10 @@
 .article__link {
-  margin: 71px auto 0;
+  position: absolute;
+  bottom: 30px;
   color: rgba(34, 76, 255, 1);
-;
+  font-family: 'PT Root UI', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
 }
