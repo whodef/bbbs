@@ -1,0 +1,10 @@
+.about__title {
+  max-width: 1170px;
+  font-family: 'ProtoGrotesk', Arial, Helvetica, serif;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 50px;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 50px;
+}
