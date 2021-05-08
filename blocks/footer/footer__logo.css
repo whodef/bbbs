@@ -1,7 +1,21 @@
 .footer__logo {
+  grid-area: logo;
+  display: flex;
+
   margin-right: 85px;
   width: 415px;
   height: 76px;
 
   object-fit: cover;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__logo {
+    justify-self: center;
+
+    margin-right: 0;
+    margin-bottom: 40px;
+    width: 252px;
+    height: 46px;
+  }
 }

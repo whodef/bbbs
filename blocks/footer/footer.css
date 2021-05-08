@@ -3,5 +3,12 @@
   padding-bottom: 82px;
 
   background-color: var(--color-dark);
-  color: #F3F2F2;
+  color: var(--color-background);
+}
+
+@media screen and (max-width: 1439px) {
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
 }

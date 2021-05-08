@@ -1,5 +1,0 @@
-.footer__block {
-  /* Вот от этого можно избавиться наверное */
-  display: flex;
-  align-items: center;
-}

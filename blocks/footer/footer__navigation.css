@@ -1,5 +1,0 @@
-.footer__navigation {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  gap: 44px;
-}

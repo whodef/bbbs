@@ -11,9 +11,29 @@
   background-color: var(--color-background);
 }
 
+@media screen and (max-width: 1439px) {
+  .header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
 .header_fixed {
   position: fixed;
-  padding-top: 20px;
-  padding-bottom: 20px;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
 }

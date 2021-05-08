@@ -1,18 +1,18 @@
 .footer__label {
   margin: 0;
-  margin-right: 30px;
 
   font-size: 18px;
   font-weight: 400;
   line-height: 1.44;
 }
 
-.footer__label:last-of-type {
-  margin-right: 0;
+.footer__label_type_copyright {
+  color: #C8D1FF;
 }
 
-.footer__label_type_copyright {
-  margin-bottom: 12px;
-
-  color: #C8D1FF;
+@media screen and (max-width: 1439px) {
+  .footer__label {
+    font-size: 12px;
+    line-height: 1.42;
+  }
 }
