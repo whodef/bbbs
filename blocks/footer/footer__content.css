@@ -1,6 +1,10 @@
 .footer__content {
-  display: flex;
+  display: grid;
+  grid-template-areas:
+    "logo button menu socials"
+    "labels labels menu socials";
   justify-content: center;
+  grid-template-rows: 76px auto;
 
   margin: 0 auto;
   max-width: 1170px;
@@ -15,8 +19,14 @@
 @media screen and (max-width: 1439px) {
   .footer__content {
     max-width: calc(100% - 128px*2);
-    flex-direction: column;
-    align-items: center;
+    grid-template-areas:
+      "logo"
+      "menu"
+      "socials"
+      "button"
+      "labels";
+    grid-template-rows: auto;
+    justify-content: normal;
   }
 }
 

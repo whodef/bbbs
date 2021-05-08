@@ -1,3 +1,18 @@
 .content {
+  /* Это для фиксированного хедера */
   margin-top: 150px;
+}
+
+@media screen and (max-width: 1439px) {
+  .content {
+    /* Это для фиксированного хедера */
+    margin-top: 110px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .content {
+    /* Это для фиксированного хедера */
+    margin-top: 60px;
+  }
 }
