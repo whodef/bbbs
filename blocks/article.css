@@ -12,3 +12,9 @@
   border-radius: 30px;
   background-color: var(--color-light-blue);
 }
+
+@media screen and (max-width: 1440px) {
+  .article {
+    max-width: 1170px;
+  }
+}

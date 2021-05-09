@@ -9,3 +9,10 @@
   background-color: var(--color-yellow);
   border-radius: 30px;
 }
+
+@media screen and (max-width: 1440px) {
+  .card-with-picture {
+    max-width: 585px;
+    max-height: 629px;
+  }
+}

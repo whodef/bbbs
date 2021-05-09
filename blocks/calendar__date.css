@@ -1,4 +1,5 @@
 .calendar__date {
+  margin-bottom: 85px;
   display: flex;
   justify-content: space-between;
   padding-top: 10px;

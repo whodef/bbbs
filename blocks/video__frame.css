@@ -7,3 +7,10 @@
   box-sizing: border-box;
   border-radius: 30px;
 }
+
+@media screen and (max-width: 1440px) {
+  .video__frame {
+    max-width: 800px;
+    max-height: 451px;
+  }
+}

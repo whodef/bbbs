@@ -14,3 +14,10 @@
 .comment:last-of-type {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 1440px) {
+  .comment {
+    max-width: 770px;
+    max-height: 189px;
+  }
+}

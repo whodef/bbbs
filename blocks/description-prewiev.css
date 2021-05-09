@@ -13,3 +13,10 @@
   align-items: flex-start;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1440px) {
+  .description-preview {
+    max-width: 585px;
+    max-height: 629px;
+  }
+}

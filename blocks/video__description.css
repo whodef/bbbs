@@ -12,5 +12,11 @@
   box-sizing: border-box;
   border-radius: 30px;
   background-color: var(--color-yellow);
+}
 
+@media screen and (max-width: 1440px) {
+  .video__description {
+    max-width: 370px;
+    max-height: 451px;
+  }
 }

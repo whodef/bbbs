@@ -13,3 +13,10 @@
   background: url("../images/history-image.jpg") no-repeat;
   background-size: auto auto;
 }
+
+@media screen and (max-width: 1440px) {
+  .history {
+    max-width: 570px;
+    max-height: 414px;
+  }
+}

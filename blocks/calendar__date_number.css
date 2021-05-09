@@ -1,4 +1,5 @@
 .calendar__date_number {
+  margin: 0;
   font-family: 'ProtoGrotesk', Arial, Helvetica, serif;
   font-weight: 300;
   font-size: 100px;
