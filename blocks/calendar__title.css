@@ -1,0 +1,9 @@
+.calendar__title {
+  width: 320px;
+  height: 60px;
+  font-family: 'ProtoGrotesk', Arial, Helvetica, serif;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 30px;
+  color: var(--color-default-text);
+}

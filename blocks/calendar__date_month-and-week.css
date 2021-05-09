@@ -1,0 +1,7 @@
+.calendar__date_month-and-week {
+  font-family:'PT Root UI', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.2px;
+  color: var(--color-default-text);
+}

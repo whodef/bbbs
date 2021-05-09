@@ -32,7 +32,7 @@
       font-family: 'ProtoGrotesk', Arial, Helvetica, serif;
       font-weight: 300;
       font-size: 23px;
-      line-height: 2;
+      line-height: 30px;
       color: var(--color-default-text);
     }
     .calendar__date {
@@ -65,11 +65,7 @@
       color: var(--color-default-text);
       font-family: 'ProtoGrotesk', Arial, Helvetica, serif;
     }
-    .calendar__form-contain {
-      display: flex;
-      flex-direction: row;
-    }
-    .calendar__form-input {
+    .calendar__form-data {
       margin-top: 20px;
       width: 100%;
       height: 20px;
@@ -81,7 +77,7 @@
       line-height: 1.2;
       font-family: 'ProtoGrotesk', Arial, Helvetica, serif;
     }
-    .calendar__form-input_without-border {
+    .calendar__form-data_without-border {
       border: none;
     }
     .calendar__save-button {
@@ -117,9 +113,6 @@
     .calendar_successful-entry {
       background: rgba(200, 209, 255, 1);
     }
-    .calendar__form-input_entry {
-      background: rgba(200, 209, 255, 1);
-    }
     .calendar__save-button_cancel {
       background: rgba(34, 76, 255, 1);
       color: rgba(255, 255, 255, 1);
@@ -140,27 +133,20 @@
       <span class="calendar__date_number">05</span>
     </div>
 
-<!-- TODO: сделать маску для ввода номера телефона -->
-    <form class="calendar__form" action="#" name="">
-      <div class="calendar__form-contain">
-        <input class="calendar__form-input" type="time" name="input-time" placeholder="С какого времени" value="12:00-14:00" required>
-        <input class="calendar__form-input" type="time" name="input-time" placeholder="По какое время" value="12:00-14:00" required>
-      </div>
-      <div class="calendar__form-contain">
-        <input class="calendar__form-input" type="text" name="input-address" placeholder="Адрес" value="Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)" required>
-      </div>
-      <div class="calendar__form-contain">
-        <input class="calendar__form-input calendar__form-input_without-border" type="text" name="input-name" placeholder="Имя" value="Александра" required>
-        <input class="calendar__form-input calendar__form-input_without-border" type="tel" name="input-tel" placeholder="Телефон" value="+7 926 356-78-90" required>
-      </div>
-    </form>
+    <div class="calendar__form">
+      <p class="calendar__form-data">12:00-14:00</p>
+      <p class="calendar__form-data">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+      <p class="calendar__form-data calendar__form-data_without-border">Александра, +7 926 356-78-90</p>
+    </div>
 
     <div class="calendar-card__do-something">
       <div class="calendar-card__do-contain">
         <button class="calendar__save-button" type="submit">Записаться</button>
         <span class="calendar__counter">Осталось 5 мест</span>
       </div>
-      <img class="link calendar__faq-img" src="../../images/icons/any-answers.svg" alt="Ответы на частые вопросы" />
+      <a class="link">
+        <img class="calendar__faq-img" src="../../images/icons/any-answers.svg" alt="Ответы на частые вопросы" />
+      </a>
     </div>
   </div>
 </div>
@@ -180,27 +166,20 @@
       <span class="calendar__date_number">05</span>
     </div>
 
-    <!-- TODO: сделать маску для ввода номера телефона -->
-    <form class="calendar__form" action="#" name="">
-      <div class="calendar__form-contain">
-        <input class="calendar__form-input calendar__form-input_entry" type="time" name="input-time" placeholder="С какого времени" value="12:00-14:00" required>
-        <input class="calendar__form-input calendar__form-input_entry" type="time" name="input-time" placeholder="По какое время" value="12:00-14:00" required>
-      </div>
-      <div class="calendar__form-contain">
-        <input class="calendar__form-input calendar__form-input_entry" type="text" name="input-address" placeholder="Адрес" value="Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)" required>
-      </div>
-      <div class="calendar__form-contain">
-        <input class="calendar__form-input calendar__form-input_without-border calendar__form-input_entry" type="text" name="input-name" placeholder="Имя" value="Александра" required>
-        <input class="calendar__form-input calendar__form-input_without-border calendar__form-input_entry" type="tel" name="input-tel" placeholder="Телефон" value="+7 926 356-78-90" required>
-      </div>
-    </form>
+    <div class="calendar__form">
+      <p class="calendar__form-data">12:00-14:00</p>
+      <p class="calendar__form-data">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+      <p class="calendar__form-data calendar__form-data_without-border">Александра, +7 926 356-78-90</p>
+    </div>
 
     <!-- Поменялась кнопка и убралась надпись о количестве мест -->
     <div class="calendar-card__do-something">
       <div class="calendar-card__do-contain">
         <button class="calendar__save-button calendar__save-button_cancel" type="submit">Отменить запись</button>
       </div>
-      <img class="link calendar__faq-img" src="../../images/icons/any-answers.svg" alt="Ответы на частые вопросы" />
+      <a class="link">
+        <img class="calendar__faq-img" src="../../images/icons/any-answers.svg" alt="Ответы на частые вопросы" />
+      </a>
     </div>
   </div>
 </div>

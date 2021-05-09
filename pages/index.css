@@ -33,6 +33,24 @@
 @import url(../blocks/about__text-container.css);
 @import url(../blocks/about__text.css);
 
+@import url(../blocks/calendar.css);
+@import url(../blocks/calendar-card__do-something.css);
+@import url(../blocks/calendar-card__header.css);
+@import url(../blocks/calendar__container.css);
+@import url(../blocks/calendar__counter.css);
+@import url(../blocks/calendar__date.css);
+@import url(../blocks/calendar__date_month-and-week.css);
+@import url(../blocks/calendar__date_number.css);
+@import url(../blocks/calendar__faq-img.css);
+@import url(../blocks/calendar__form.css);
+@import url(../blocks/calendar__form-data.css);
+@import url(../blocks/calendar__form-data_without-border.css);
+@import url(../blocks/calendar__note.css);
+@import url(../blocks/calendar__save-button.css);
+@import url(../blocks/calendar__save-button_cancel.css);
+@import url(../blocks/calendar__title.css);
+@import url(../blocks/calendar_successful-entry.css);
+
 @import url(../blocks/article.css);
 @import url(../blocks/second-article.css);
 @import url(../blocks/article__link.css);
@@ -63,7 +81,7 @@
 @import url(../blocks/video__link.css);
 @import url(../blocks/video__title.css);
 @import url(../blocks/video__frame.css);
-@import url(../blocks/video-section.css);
+/*@import url(../blocks/video-section.css);*/
 
 
 @import url(../blocks/mentor-choice-tag.css);

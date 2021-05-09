@@ -1,0 +1,6 @@
+.calendar {
+  max-width: 570px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background-color: var(--color-default-background);
+}
