@@ -11,9 +11,7 @@
   position: relative;
   top: 0;
   right: 7px;
-
   width: 5px;
-
   background-color: var(--color-scroll);
   border-radius: 5px;
 }
