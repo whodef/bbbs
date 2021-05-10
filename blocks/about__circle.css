@@ -12,3 +12,21 @@
   font-size: 23px;
   line-height: 30px;
 }
+
+@media screen and (max-width: 1366px) {
+  /* стили для для экранов с разрешением 1366px по ширине и меньше */
+  .about__circle {
+    min-width: 370px;
+    min-height: 358px;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  /* стили для для экранов с разрешением 375px по ширине и меньше */
+  .about__circle {
+    min-width: 290px;
+    min-height: 280px;
+  }
+}
+

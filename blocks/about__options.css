@@ -8,7 +8,16 @@
 @media screen and (max-width: 1366px) {
   /* стили для для экранов с разрешением 1366px по ширине и меньше */
   .about__options {
+    max-width: 570px;
     grid-template-columns: auto;
     padding: 50px 0 70px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  /* стили для для экранов с разрешением 375px по ширине и меньше */
+  .about__options {
+    padding-bottom: 20px;
   }
 }

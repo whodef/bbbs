@@ -1,5 +1,4 @@
 .about__option-content {
-  min-height: 265px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -9,18 +8,11 @@
   padding: 30px;
 }
 
-@media screen and (max-width: 1800px) {
-  /* стили для для экранов с разрешением 1800px по ширине и меньше */
-  .about__option-content {
-    min-height: 369px;
-  }
-}
-
 @media screen and (max-width: 1366px) {
   /* стили для для экранов с разрешением 1366px по ширине и меньше */
   .about__option-content {
-    min-height: 155px;
     grid-row-start: inherit;
+    padding: 30px 15px;
     margin-bottom: 30px;
   }
 }

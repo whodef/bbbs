@@ -3,8 +3,17 @@
   font-family: 'ProtoGrotesk', Arial, Helvetica, serif;
   font-weight: 300;
   font-size: 44px;
-  line-height: 50px;
+  line-height: 1.14;
   text-align: center;
   margin: 0 auto;
   padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1366px) {
+  /* стили для для экранов с разрешением 1366px по ширине и меньше */
+  .about__title {
+    font-size: 19px;
+    line-height: 1.21;
+    padding-bottom: 30px;
+  }
 }

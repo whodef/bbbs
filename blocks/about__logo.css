@@ -3,3 +3,10 @@
   width: 357px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1366px) {
+  /* стили для для экранов с разрешением 1366px по ширине и меньше */
+  .about__logo {
+    width: 252px;
+  }
+}
