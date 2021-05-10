@@ -33,3 +33,5 @@
 * [CommitLint](https://commitlint.io/)
 * [Can I use?](https://caniuse.com/)
 * [Lottie](https://airbnb.design/lottie/)
+
+## Ссылка на готовый проект [Старшие Братья, Старшие Сёстры](https://whodef.github.io/bbbs/)

@@ -1,6 +1,7 @@
 .calendars-block {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
   gap: 30px;
   margin-bottom: 120px;
 }
@@ -12,9 +13,23 @@
   }
 }
 
-@media screen and (max-width: 375px) {
-  /* стили для для экранов с разрешением 375px по ширине и меньше */
+@media screen and (max-width: 1366px) {
+  /* стили для для экранов с разрешением 1366px по ширине и меньше */
   .calendars-block {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 370px);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  /* стили для для экранов с разрешением 800px по ширине и меньше */
+  .calendars-block {
+    grid-template-columns: 290px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* стили для для экранов с разрешением 320px по ширине и меньше */
+  .calendars-block {
+    gap: 0;
   }
 }
