@@ -1,0 +1,23 @@
+.article__text {
+  max-width: 970px;
+  font-family: 'PT Root UI', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 50px;
+  text-align: center;
+  color: var(--color-default-text);
+}
+
+@media screen and (max-width: 1024px) {
+  .article__text {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .article__text {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}

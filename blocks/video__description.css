@@ -1,0 +1,31 @@
+.video__description {
+  margin: 0;
+  padding: 30px 50px;
+  max-width: 571px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background-color: var(--color-yellow);
+}
+
+@media screen and (max-width: 1440px) {
+  .video__description {
+    max-width: 370px;
+    max-height: 451px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .video__description {
+    margin-top: -10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    max-width: 770px;
+    height: 157px;
+  }
+}

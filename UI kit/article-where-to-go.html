@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .article-preview {
+      margin:0;
+      padding: 15px 30px;
+      width: 420px;
+      box-sizing: border-box;
+      border-radius: 30px;
+      background-color: var(--color-green);
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .article-preview__contain {
+      margin: 0;
+      padding: 2px 7px;
+      width: 130px;
+      text-align: center;
+      border-radius: 15px;
+      background: var(--color-opacity-tag);
+    }
+
+    .article-preview__title {
+      margin: 0;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-size: 10px;
+      line-height: 0.8;
+      color: var(--color-default-text);
+      font-family: 'PTRootUI', Arial, Helvetica, serif;
+    }
+    .article-preview__quote {
+      margin: 5px 0 0;
+      width: 100%;
+      font-weight: 300;
+      font-size: 23px;
+      line-height: 2;
+      text-align: center;
+      overflow: hidden;
+      color: var(--color-default-text);
+      font-family: 'ProtoGrotesk', Arial, Helvetica, serif;
+    }
+    .article-preview__by-line {
+      margin: 5px 0 0;
+      font-size: 14px;
+      line-height: 1.2;
+      letter-spacing: 0.2px;
+      color: var(--color-dark-gray);
+      font-family: 'PTRootUI', Arial, Helvetica, serif;
+    }
+    .article-preview__link {
+      margin: 33px 0 0;
+      color: var(--color-blue);
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 1.2;
+      letter-spacing: 0.2px;
+      font-family: 'PTRootUI', Arial, Helvetica, serif;
+      text-decoration: none;
+      transition: opacity 0.3s ease;
+    }
+
+
+     /*модифицируемые элементы*/
+
+    .article-preview_small {
+      width: 290px;
+      background-color: var(--color-light-blue);
+    }
+
+    .article-preview__quote_small {
+      font-size: 19px;
+      line-height: 23px;
+    }
+    .article-preview__by-line_small {
+      font-size: 12px;
+      line-height: 17px;
+    }
+    .article-preview__link_small {
+      font-size: 12px;
+      line-height: 17px;
+    }
+
+  </style>
+  <title>Статья "Куда пойти"</title>
+  <link rel="stylesheet" href="../pages/index.css">
+</head>
+<body class="page">
+
+  <div class="article-preview article-preview_small">
+    <div class="article-preview__contain">
+      <span class="article-preview__title">выбор наставника</span>
+    </div>
+    <blockquote class="article-preview__quote article-preview__quote_small">Симбиоз со знаком «плюс» и симбиоз со знаком «минус» – для чего нужен переходный</blockquote>
+    <p class="article-preview__by-line article-preview__by-line_small">Ирина Стасенко, педагог-психолог</p>
+    <a class="article-preview__link article-preview__link_small" href="#">читать на сайте</a>
+  </div>
+
+<br>
+
+  <div class="article-preview">
+    <blockquote class="article-preview__quote">У таких детей возникает ощущение отверженности.
+      Оно приводит к напряженности и  недоверию к людям и, как итог, к реальному неприятию себя и окружающих.</blockquote>
+    <a class="article-preview__link" href="#">читать статью</a>
+  </div>
+
+</body>
+</html>

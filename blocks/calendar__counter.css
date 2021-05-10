@@ -1,0 +1,17 @@
+.calendar__counter {
+  padding-left: 15px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  line-height: 19px;
+  color: var(--color-default-text);
+  font-family: 'PT Root UI', Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+  .calendar__counter {
+    padding: 0;
+    line-height: 17px;
+    font-size: 10px;
+  }
+}

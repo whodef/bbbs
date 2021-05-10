@@ -1,0 +1,9 @@
+.calendar-title {
+  font-family: 'ProtoGrotesk', Arial, Helvetica, serif;
+  font-weight: 300;
+  font-size: 74px;
+  line-height: 1.08;
+  text-align: center;
+  padding-bottom: 40px;
+  margin: 0 auto;
+}

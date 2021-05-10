@@ -1,0 +1,18 @@
+.calendar__save-button {
+  padding: 13px;
+  letter-spacing: 0.2px;
+  font-weight: 300;
+  border: 1px #224CFF solid;
+  background-color: var(--color-default-background);
+  color: var(--color-blue);
+  font-size: 15px;
+  border-radius: 100px;
+  font-family: 'ProtoGrotesk', Arial, Helvetica, serif;
+}
+
+@media screen and (max-width: 1024px) {
+  .calendar__save-button {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}

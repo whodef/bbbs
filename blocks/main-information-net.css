@@ -1,0 +1,12 @@
+.main-information-net {
+  margin: 0;
+  padding: 0 0 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 320px) {
+  .main-information-net {
+    flex-direction: column;
+  }
+}

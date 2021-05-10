@@ -1,0 +1,52 @@
+.header__button {
+  padding: 0;
+  width: 30px;
+  height: 30px;
+
+  cursor: pointer;
+  background: none;
+  border: none;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.header__button_type_account {
+  background-image: url(../images/icons/account-icon.svg);
+}
+
+.header__button_type_search {
+  background-image: url(../images/icons/search-icon.svg);
+}
+
+.header__button_type_close-menu {
+  display: none;
+
+  background-image: url(../images/icons/cross.svg);
+}
+
+.header__button_type_burger-menu {
+  display: none;
+
+  background-size: 30px 20px;
+  background-image: url(../images/icons/burger.svg);
+}
+
+@media screen and (max-width: 1439px) {
+  .header__button_type_account {
+    display: none;
+  }
+
+  .header__button_type_close-menu {
+    display: block;
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+
+  .header__button_type_burger-menu {
+    display: block;
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+
+}

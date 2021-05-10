@@ -1,0 +1,32 @@
+.trailer {
+  margin-right: 30px;
+  max-width: 420px;
+  width: 100%;
+  max-height: calc(169px + 239px);
+  border-radius: 30px;
+  background-color: white;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.trailer:nth-child(4) {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .trailer {
+    max-height: calc(169px + 211px);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .trailer {
+    max-height: calc(211px + 147px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .trailer {
+    max-height: calc(163px + 147px);
+  }
+}

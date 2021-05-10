@@ -1,0 +1,28 @@
+.card-with-picture__image {
+  max-width: 1125px;
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 70px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1440px) {
+  .card-with-picture__image {
+    max-height: 394px;
+    height: 394px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .card-with-picture__image {
+    max-height: 346px;
+    height: 378px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card-with-picture__image {
+    max-width: 260px;
+    max-height: 174px;
+  }
+}

@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .description-preview {
+      margin:0;
+      padding: 30px;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      border-radius: 30px;
+      background-color: var(--color-default-background);
+      display: flex;
+      flex-direction: column;
+      align-content: start;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+
+    .description-preview__scroll-contain {
+      overflow-y: scroll;
+    }
+    .description-preview__title {
+      margin: 0;
+      font-family: PT Root UI, Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      line-height: 1.2;
+      letter-spacing: 0.2px;
+      color: var(--color-dark-gray);
+    }
+    .description-preview__text {
+      margin: 10px 0 0;
+      font-family: PT Root UI, Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      line-height: 1.7;
+      color: var(--color-default-text);
+    }
+
+    /* Модифицируемые элементы TODO: Нужно будет добавить на этапе вёрстки под меньшие экраны */
+    .description-preview_small {
+      width: 290px;
+      height: 188px;
+    }
+    .description-preview__title_small {
+      font-size: 12px;
+      line-height: 1.1;
+    }
+    .description-preview__text_small {
+      font-size: 15px;
+      line-height: 1.4;
+    }
+
+  </style>
+  <title>Описание "Куда пойти"</title>
+  <link rel="stylesheet" href="../pages/index.css">
+</head>
+<body class="page">
+
+<div class="description-preview">
+  <div class="scrolling-element description-preview__scroll-contain">
+    <h1 class="description-preview__title">Девочка, 10 лет. Познавательный</h1>
+    <p class="description-preview__text">Аннотация книги в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом понимать чуть лучше и, в конце концов, научитесь даже шутить. В тот момент, как ребёнок научился говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь меняется.
+    Аннотация статьи в несколько абзацев. Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом понимать чуть лучше и, в конце концов, научитесь даже шутить. Аннотация статьи в несколько абзацев.</p>
+  </div>
+</div>
+
+<br>
+
+<div class="description-preview description-preview_small">
+  <div class="scrolling-element description-preview__scroll-contain">
+    <h1 class="description-preview__title description-preview__title_small">Девочка, 10 лет. Познавательный</h1>
+    <p class="description-preview__text description-preview__text_small">Аннотация книги в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом понимать чуть лучше и, в конце концов, научитесь даже шутить. В тот момент, как ребёнок научился говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь меняется.
+    Аннотация статьи в несколько абзацев. Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом понимать чуть лучше и, в конце концов, научитесь даже шутить. Аннотация статьи в несколько абзацев.</p>
+  </div>
+</div>
+
+</body>
+</html>

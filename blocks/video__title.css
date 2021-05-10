@@ -1,0 +1,24 @@
+.video__title {
+  margin: 0 auto;
+  font-family: 'ProtoGrotesk', Arial, Helvetica, serif;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 30px;
+  text-align: center;
+  color: var(--color-default-text);
+}
+
+@media screen and (max-width: 1024px) {
+  .video__title {
+    font-size: 19px;
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .video__title {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}

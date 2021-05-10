@@ -1,0 +1,31 @@
+.calendar {
+  margin: 0 30px 0 0;
+  padding: 0;
+  max-width: 870px;
+  width: 100%;
+  max-height: 520px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background-color: var(--color-default-background);
+}
+
+@media screen and (max-width: 1440px) {
+  .calendar {
+    max-width: 570px;
+    max-height: 414px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .calendar {
+    max-width: 370px;
+    max-height: 382px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .calendar {
+    max-width: 290px;
+    margin-bottom: 30px;
+  }
+}

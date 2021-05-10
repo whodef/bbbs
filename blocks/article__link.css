@@ -1,0 +1,16 @@
+.article__link {
+  position: absolute;
+  bottom: 30px;
+  color: rgba(34, 76, 255, 1);
+  font-family: 'PT Root UI', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+}
+
+@media screen and (max-width: 320px) {
+  .article__link {
+    bottom: 15px;
+  }
+}

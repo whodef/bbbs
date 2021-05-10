@@ -1,0 +1,20 @@
+.about__paragraph {
+  font-family: 'PTRootUI', Arial, Helvetica, serif;
+  font-size: 18px;
+  line-height: 1.44;
+  margin: 0;
+  padding-bottom: 28px;
+}
+
+.about__paragraph:last-of-type {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 1366px) {
+  /* стили для для экранов с разрешением 1366px по ширине и меньше */
+  .about__paragraph {
+    font-size: 15px;
+    line-height: 1.4;
+    padding-bottom: 21px;
+  }
+}

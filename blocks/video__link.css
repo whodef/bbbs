@@ -1,0 +1,17 @@
+.video__link {
+  position: absolute;
+  bottom: 30px;
+  margin: 0 auto;
+  font-family: 'ProtoGrotesk', Arial, Helvetica, serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.2;
+  letter-spacing: 0.2px;
+  color: rgba(34, 76, 255, 1);
+}
+
+@media screen and (max-width: 1024px) {
+  .video__link {
+    bottom: 15px;
+  }
+}

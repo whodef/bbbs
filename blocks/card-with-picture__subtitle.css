@@ -1,0 +1,16 @@
+.card-with-picture__subtitle {
+  margin: 5px 0 0;
+  font-family: 'PTRootUI', Arial, Helvetica, serif;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #464646;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .card-with-picture__subtitle {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}

@@ -1,0 +1,18 @@
+.history__title {
+  margin: 0 auto;
+  padding: 238px 0;
+  position: relative;
+  font-family: 'ProtoGrotesk', Arial, Helvetica, serif;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 30px;
+  text-align: center;
+  overflow: hidden;
+  color: var(--color-default-background);
+}
+
+@media screen and (max-width: 1440px) {
+  .history__title {
+    display: none;
+  }
+}

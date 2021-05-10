@@ -1,0 +1,66 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/page.css);
+@import url(../blocks/page__section.css);
+
+@import url(../blocks/header.css);
+@import url(../blocks/header__content.css);
+@import url(../blocks/header__logo.css);
+@import url(../blocks/header__buttons-container.css);
+@import url(../blocks/header__button.css);
+@import url(../blocks/header__separator.css);
+
+@import url(../blocks/menu__container.css);
+@import url(../blocks/menu.css);
+@import url(../blocks/menu__list.css);
+@import url(../blocks/menu__item.css);
+@import url(../blocks/menu__link.css);
+
+@import url(../blocks/sub-menu.css);
+@import url(../blocks/sub-menu__list.css);
+@import url(../blocks/sub-menu__item.css);
+@import url(../blocks/sub-menu__link.css);
+
+@import url(../blocks/link.css);
+
+
+@import url(../blocks/calendars-block.css);
+@import url(../blocks/calendar-title.css);
+@import url(../blocks/month-selector.css);
+@import url(../blocks/month-selector__element.css);
+@import url(../blocks/month-selector__element_active.css);
+
+@import url(../blocks/calendar.css);
+@import url(../blocks/calendar-card__do-something.css);
+@import url(../blocks/calendar-card__header.css);
+@import url(../blocks/calendar__container.css);
+@import url(../blocks/calendar__counter.css);
+@import url(../blocks/calendar__date.css);
+@import url(../blocks/calendar__date_month-and-week.css);
+@import url(../blocks/calendar__date_number.css);
+@import url(../blocks/calendar__faq-img.css);
+@import url(../blocks/calendar__form.css);
+@import url(../blocks/calendar__form-data.css);
+@import url(../blocks/calendar__form-data_without-border.css);
+@import url(../blocks/calendar__note.css);
+@import url(../blocks/calendar__save-button.css);
+@import url(../blocks/calendar__save-button_cancel.css);
+@import url(../blocks/calendar__save-button_inactive.css);
+@import url(../blocks/calendar__title.css);
+@import url(../blocks/calendar_successful-entry.css);
+
+
+
+@import url(../blocks/footer.css);
+@import url(../blocks/footer__content.css);
+@import url(../blocks/footer__logo.css);
+@import url(../blocks/footer__labels.css);
+@import url(../blocks/footer__links.css);
+@import url(../blocks/footer__label.css);
+@import url(../blocks/footer__link.css);
+@import url(../blocks/footer__button.css);
+@import url(../blocks/footer__separator.css);
+
+
+@import url(../blocks/content.css);

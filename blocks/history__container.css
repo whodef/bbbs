@@ -1,0 +1,18 @@
+.history__container {
+  width: 100%;
+  background: #464646;
+  mix-blend-mode: multiply;
+  opacity: 0.8;
+  border-radius: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .history__container {
+    display: none;
+  }
+}

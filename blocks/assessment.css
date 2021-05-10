@@ -1,0 +1,11 @@
+.assessment {
+  display: flex;
+  align-items: center;
+  height: min-content;
+}
+
+@media screen and (max-width: 1439px) {
+  .assessment {
+    grid-column: 1/3;
+  }
+}

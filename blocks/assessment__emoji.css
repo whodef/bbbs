@@ -1,0 +1,38 @@
+.assessment__emoji {
+  width: 26px;
+  height: 26px;
+
+  background-size: cover;
+  cursor: pointer;
+}
+
+.assessment__emoji_type_positive {
+  background-image: url(../images/icons/assessment-emoji-positive.svg);
+}
+
+.assessment__emoji_type_neutral {
+  background-image: url(../images/icons/assessment-emoji-neutral.svg);
+}
+
+.assessment__emoji_type_negative {
+  background-image: url(../images/icons/assessment-emoji-negative.svg);
+}
+
+.assessment__emoji_type_positive-active {
+  background-image: url(../images/icons/assessment-emoji-positive-active.svg);
+}
+
+.assessment__emoji_type_neutral-active {
+  background-image: url(../images/icons/assessment-emoji-neutral-active.svg);
+}
+
+.assessment__emoji_type_negative-active {
+  background-image: url(../images/icons/assessment-emoji-negative-active.svg);
+}
+
+@media screen and (max-width: 1439px) {
+  .assessment__emoji {
+    width: 23px;
+    height: 23px;
+  }
+}

@@ -1,0 +1,15 @@
+.about__article {
+  max-width: 540px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-default-background);
+  border-radius: 30px;
+  padding: 52px 30px;
+}
+
+@media screen and (max-width: 1366px) {
+  /* стили для для экранов с разрешением 1366px по ширине и меньше */
+  .about__article {
+    padding: 30px 15px;
+  }
+}

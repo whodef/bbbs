@@ -1,0 +1,26 @@
+.about__link {
+  font-family: 'ProtoGrotesk', Arial, Helvetica, serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.27px;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  color: var(--color-blue);
+  text-align: center;
+  transition: opacity 0.3s ease;
+  margin-top: 30px;
+}
+
+.about__link:hover {
+  opacity: 0.7;
+}
+
+
+@media screen and (max-width: 1366px) {
+  /* стили для для экранов с разрешением 1366px по ширине и меньше */
+  .about__link {
+    font-size: 12px;
+    line-height: 1.42;
+    margin-top: 15px;
+  }
+}

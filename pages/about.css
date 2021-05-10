@@ -1,0 +1,52 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/page.css);
+@import url(../blocks/page__section.css);
+
+@import url(../blocks/header.css);
+@import url(../blocks/header__content.css);
+@import url(../blocks/header__logo.css);
+@import url(../blocks/header__buttons-container.css);
+@import url(../blocks/header__button.css);
+@import url(../blocks/header__separator.css);
+
+@import url(../blocks/menu__container.css);
+@import url(../blocks/menu.css);
+@import url(../blocks/menu__list.css);
+@import url(../blocks/menu__item.css);
+@import url(../blocks/menu__link.css);
+
+@import url(../blocks/sub-menu.css);
+@import url(../blocks/sub-menu__list.css);
+@import url(../blocks/sub-menu__item.css);
+@import url(../blocks/sub-menu__link.css);
+
+@import url(../blocks/link.css);
+
+@import url(../blocks/about__title.css);
+@import url(../blocks/about__logo.css);
+@import url(../blocks/about__info.css);
+@import url(../blocks/about__circle.css);
+@import url(../blocks/about__article.css);
+@import url(../blocks/about__paragraph.css);
+@import url(../blocks/about__aim.css);
+@import url(../blocks/about__options.css);
+@import url(../blocks/about__option-title.css);
+@import url(../blocks/about__option-content.css);
+@import url(../blocks/about__link.css);
+
+
+
+@import url(../blocks/footer.css);
+@import url(../blocks/footer__content.css);
+@import url(../blocks/footer__logo.css);
+@import url(../blocks/footer__labels.css);
+@import url(../blocks/footer__links.css);
+@import url(../blocks/footer__label.css);
+@import url(../blocks/footer__link.css);
+@import url(../blocks/footer__button.css);
+@import url(../blocks/footer__separator.css);
+
+
+@import url(../blocks/content.css);

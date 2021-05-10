@@ -1,0 +1,11 @@
+.events__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+
+  margin-bottom: 50px;
+  width: 100%;
+  min-height: 20px;
+
+  border-bottom: solid 0.5px var(--color-dark-gray);
+}

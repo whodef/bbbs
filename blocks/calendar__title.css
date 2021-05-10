@@ -1,0 +1,18 @@
+.calendar__title {
+  width: 320px;
+  height: 60px;
+  margin: 0;
+  font-family: 'ProtoGrotesk', Arial, Helvetica, serif;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 30px;
+  color: var(--color-default-text);
+}
+
+
+@media screen and (max-width: 1024px) {
+  .calendar__title {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}
