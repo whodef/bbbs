@@ -29,3 +29,10 @@
 .assessment__emoji_type_negative-active {
   background-image: url(../images/icons/assessment-emoji-negative-active.svg);
 }
+
+@media screen and (max-width: 1439px) {
+  .assessment__emoji {
+    width: 23px;
+    height: 23px;
+  }
+}

@@ -1,0 +1,14 @@
+.form-place__place-name {
+  padding: 13px 20px 16px;
+  border: none;
+
+  box-sizing: border-box;
+  height: min-content;
+  background-color: var(--color-background);
+  border-radius: 30px;
+  font-family: 'ProtoGrotesk', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.27;
+  color: var(--color-light-gray);
+}
