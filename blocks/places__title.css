@@ -1,6 +1,6 @@
 .places__title {
   margin: 0 auto 50px;
-  max-width: calc(100% - 200px*2);
+  max-width: 770px;
 
   text-align: center;
   font-family: 'ProtoGrotesk', Arial, Helvetica, sans-serif;
