@@ -1,0 +1,5 @@
+.places__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 80px;
+}
