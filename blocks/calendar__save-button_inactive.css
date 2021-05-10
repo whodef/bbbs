@@ -1,0 +1,4 @@
+.calendar__save-button_inactive {
+  border-color: var(--color-light-gray);
+  color: var(--color-light-gray);
+}

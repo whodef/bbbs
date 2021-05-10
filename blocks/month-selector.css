@@ -1,0 +1,6 @@
+.month-selector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
