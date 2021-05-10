@@ -10,5 +10,15 @@
   font-weight: 300;
   font-size: 15px;
   line-height: 1.27;
+  letter-spacing: 0.2px;
   color: var(--color-light-gray);
+}
+
+@media screen and (max-width: 1439px) {
+  .form-place__delete-btn {
+    margin-right: 0;
+
+    font-size: 12px;
+    line-height: 1.42;
+  }
 }

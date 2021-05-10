@@ -1,5 +1,5 @@
 .form-place__place-date {
-  padding: 13px 20px 16px;
+  padding: 14px 20px;
   border: none;
 
   box-sizing: border-box;
@@ -11,4 +11,12 @@
   font-size: 15px;
   line-height: 1.27;
   color: var(--color-light-gray);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1439px) {
+  .form-place__place-date {
+    font-size: 12px;
+    line-height: 1.42;
+  }
 }

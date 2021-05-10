@@ -1,8 +1,7 @@
-.form-place__info {
+.place__info {
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 11fr 2fr;
   grid-template-rows: auto min-content;
-  row-gap: 20px;
 
   box-sizing: border-box;
   padding: 30px;
@@ -11,7 +10,7 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .form-place__info {
+  .place__info {
     grid-template-columns: 1fr;
     padding: 30px 15px;
   }

@@ -115,41 +115,45 @@
   <main class="content">
     <section class="page__section events">
       <h2 class="events__label">У вас нет записи на мероприятия</h2>
-      <div class="events__container">
-        <div class="event">
+      <ul class="events__container">
+        <li class="event">
           <div class="event__date">
             <span class="event__day">05</span>
             <span class="event__month">декабрь</span>
           </div>
           <p class="event__description">Субботний meet up: учимся проходить интевью</p>
-        </div>
+        </li>
 
-        <div class="event">
+        <li class="event">
           <div class="event__date">
             <span class="event__day">05</span>
             <span class="event__month">декабрь</span>
           </div>
           <p class="event__description">Субботний meet up: учимся проходить интевью</p>
-        </div>
-      </div>
+        </li>
+      </ul>
     </section>
 
 
 
     <section class="page__section places">
       <h2 class="places__title">Составьте историю вашей дружбы с младшим. Эта страница доступна только вам.</h2>
-      <div class="places__container">
+      <button class="link places__add-btn" type="button">
+        <span class="places__add-btn-label">Добавить встречу</span>
+      </button>
+      <ul class="places__container">
         <form class="form-place">
           <div class="form-place__photo-container">
+            <!-- <img class="form-place__photo" src="./images/history-image.jpg" alt="Фото истории"> -->
             <button class="link form-place__photo-add-btn" type="button">
               <span class="form-place__photo-add-btn-label">Загрузить фото</span>
             </button>
           </div>
           <div class="form-place__info">
             <fieldset class="form-place__inputs">
-              <input class="form-place__place-name" placeholder="Место встречи" type="text">
-              <input class="form-place__place-date" placeholder="Дата" type="date">
-              <textarea class="form-place__place-description" placeholder="Опишите вашу встречу, какие чувства вы испытывали, что понравилось / не понравилось"></textarea>
+              <input class="form-place__input form-place__place-name form-place__input_type_error" placeholder="Место встречи" type="text">
+              <input class="form-place__input form-place__place-date" placeholder="Дата" type="date">
+              <textarea class="form-place__input form-place__place-description" placeholder="Опишите вашу встречу, какие чувства вы испытывали, что понравилось / не понравилось"></textarea>
             </fieldset>
 
             <div class="assessment">
@@ -181,7 +185,39 @@
 
           </div>
         </form>
-      </div>
+
+        <li class="place">
+          <div class="place__photo-container">
+            <img class="place__photo" src="./images/place-story-example.jpg" alt="Фото истории">
+          </div>
+          <div class="place__info">
+            <h3 class="place__title">Парк Горького</h3>
+
+            <time class="place__date">
+              <span class="place__month-year">декабрь, 2020</span>
+              <span class="place__day">05</span>
+            </time>
+
+            <div class="scrolling-element place__description">
+              <p class="place__paragraph">Описание в несколько срок. Подробное описание. Опишите вашу встречу, какие чувства вы испытывали, что понравилось не понравилось. Описание в несколько срок. Подробное описание. Подробное описание. Опишите вашу встречу, какие чувства вы испытывали, что понравилось не понравилось.  Описание в несколько срок. Подробное описание. Опишите вашу встречу, какие чувства вы испытывали, что понравилось не понравилось. Описание в несколько срок. Подробное описание. Подробное описание. Опишите вашу встречу, какие чувства вы испытывали, что понравилось не понравилось. чувства вы испытывали, что понравилось не понравилось. </p>
+              <p class="place__paragraph">Описание в несколько срок. Подробное описание. Опишите вашу встречу, какие чувства вы испытывали, что понравилось не понравилось. Описание в несколько срок. Подробное описание. Подробное описание. Опишите вашу встречу, какие чувства вы испытывали, что понравилось не понравилось.  Описание в несколько срок. Подробное описание. Опишите вашу встречу, какие чувства вы испытывали, что понравилось не понравилось. Описание в несколько срок. Подробное описание. Подробное описание. Опишите вашу встречу, какие чувства вы испытывали, что понравилось не понравилось. чувства вы испытывали, что понравилось не понравилось. </p>
+            </div>
+
+            <div class="place__footer">
+              <div class="place__assessment">
+                <div class="place__assessment-emoji place__assessment-emoji_type_positive"></div>
+                <span class="place__assessment-emoji-label place__assessment-emoji-label_type_positive">Было классно!</span>
+              </div>
+
+              <div class="place__btns">
+                <button type="button" class="place__btn">Поделиться с куратором</button>
+                <button type="button" class="place__btn">Редактировать</button>
+                <button type="button" class="place__btn">Удалить</button>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
     </section>
   </main>
 

@@ -1,0 +1,8 @@
+.place__day {
+  font-family: 'ProtoGrotesk', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -2px;
+  text-align: right;
+}

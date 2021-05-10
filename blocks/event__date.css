@@ -3,3 +3,9 @@
 
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 1439px) {
+  .event__date {
+    margin-bottom: 5px;
+  }
+}

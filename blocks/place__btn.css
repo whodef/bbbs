@@ -1,29 +1,20 @@
-.form-place__add-btn {
-  padding: 14px 20px;
-
-  border: 1px solid var(--color-blue);
-  border-radius: 100px;
-  cursor: pointer;
+.place__btn {
   background: none;
+  cursor: pointer;
+  border: none;
+
+  padding: 0;
 
   font-family: 'ProtoGrotesk', Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 1.27;
   letter-spacing: 0.2px;
-  color: var(--color-blue);
-}
-
-
-.form-place__photo-add-btn_disabled {
   color: var(--color-light-gray);
-  border: 1px solid var(--color-light-gray);
 }
 
 @media screen and (max-width: 1439px) {
-  .form-place__add-btn {
-    padding: 12px 15px;
-
+  .place__btn {
     font-size: 12px;
     line-height: 1.42;
   }

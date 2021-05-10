@@ -1,7 +1,18 @@
 .event {
+  box-sizing: border-box;
   margin-bottom: 50px;
   padding: 30px;
+  min-width: 270px;
+  width: 270px;
 
   border-radius: 30px;
   background-color: var(--color-default-background);
+}
+
+@media screen and (max-width: 1439px) {
+  .event {
+    padding: 15px;
+    min-width: 205px;
+    width: 205px;
+  }
 }

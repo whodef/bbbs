@@ -1,0 +1,10 @@
+.place__assessment {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .place__assessment {
+    margin-bottom: 20px;
+  }
+}

@@ -1,8 +1,8 @@
-.events__label {
+.place__title {
   margin-top: 0;
   margin-bottom: 30px;
+  height: min-content;
 
-  text-align: center;
   font-family: 'ProtoGrotesk', Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-size: 23px;
@@ -10,8 +10,9 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .events__label {
-    font-size: 19px;
-    line-height: 1.21;
+  .place__title {
+    margin-bottom: 74px;
+    font-size: 18px;
+    line-height: 1.28;
   }
 }

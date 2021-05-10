@@ -1,0 +1,13 @@
+.place__description {
+  padding-right: 15px;
+  margin-bottom: 38px;
+}
+
+@media screen and (max-width: 1439px) {
+  .place__description {
+    padding-right: 10px;
+    margin-bottom: 20px;
+    grid-column: 1/3;
+    height: 260px;
+  }
+}

@@ -150,6 +150,8 @@
 @import url(../blocks/places.css);
 @import url(../blocks/places__container.css);
 @import url(../blocks/places__title.css);
+@import url(../blocks/places__add-btn.css);
+@import url(../blocks/places__add-btn-label.css);
 
 @import url(../blocks/form-place.css);
 @import url(../blocks/form-place__add-btn.css);
@@ -163,9 +165,28 @@
 @import url(../blocks/form-place__place-date.css);
 @import url(../blocks/form-place__place-description.css);
 @import url(../blocks/form-place__place-name.css);
+@import url(../blocks/form-place__photo.css);
+@import url(../blocks/form-place__input.css);
 
 @import url(../blocks/slider/slider.css);
 @import url(../blocks/slider/slider__list.css);
 @import url(../blocks/slider/slider__item.css);
 @import url(../blocks/slider/slider__arrow.css);
 @import url(../blocks/slider/slider__arrow-icon.css);
+
+@import url(../blocks/place.css);
+@import url(../blocks/place__assessment-emoji-label.css);
+@import url(../blocks/../blocks/place__assessment-emoji.css);
+@import url(../blocks/place__assessment.css);
+@import url(../blocks/place__btn.css);
+@import url(../blocks/place__btns.css);
+@import url(../blocks/place__date.css);
+@import url(../blocks/place__day.css);
+@import url(../blocks/place__description.css);
+@import url(../blocks/place__info.css);
+@import url(../blocks/place__paragraph.css);
+@import url(../blocks/place__month-year.css);
+@import url(../blocks/place__photo-container.css);
+@import url(../blocks/place__photo.css);
+@import url(../blocks/place__title.css);
+@import url(../blocks/place__footer.css);

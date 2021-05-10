@@ -1,22 +1,22 @@
-.form-place__photo-add-btn-label {
+.places__add-btn-label {
   position: absolute;
-  top: 115px;
-  transform: translateX(-50%);
+  left: 63px;
+  top: 50%;
+  transform: translateY(-50%);
 
-  width: 150%;
-
+  width: max-content;
   font-family: 'ProtoGrotesk', Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 1.27;
-  color: var(--color-light-gray);
+  color: var(--color-blue);
 }
 
 @media screen and (max-width: 1439px) {
-  .form-place__photo-add-btn-label {
-    top: 95px;
-
+  .places__add-btn-label {
     font-size: 12px;
     line-height: 1.42;
+
+    left: 55px;
   }
 }

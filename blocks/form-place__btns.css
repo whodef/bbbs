@@ -10,6 +10,7 @@
 
 @media screen and (max-width: 1439px) {
   .form-place__btns {
-    grid-column: 1/3;
+    flex-direction: row-reverse;
+    justify-content: space-between;
   }
 }
