@@ -1,0 +1,15 @@
+.slider {
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+}
+
+.slider.grab {
+  cursor: grab;
+}
+
+.slider.grabbing{
+  cursor: grabbing;
+}

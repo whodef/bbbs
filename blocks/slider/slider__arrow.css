@@ -1,0 +1,8 @@
+.slider__arrow {
+  margin: 0;
+  padding: 0;
+
+  cursor: pointer;
+  background: none;
+  border: none;
+}
