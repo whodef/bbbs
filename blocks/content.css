@@ -4,6 +4,12 @@
   padding: 0 75px;
 }
 
+@media screen and (max-width: 1919px) {
+  .content {
+    padding: 0;
+  }
+}
+
 @media screen and (max-width: 1439px) {
   .content {
     /* Это для фиксированного хедера */
