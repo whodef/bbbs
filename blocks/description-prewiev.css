@@ -20,3 +20,16 @@
     max-height: 629px;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .description-preview {
+    max-width: 770px;
+    max-height: 188px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .description-preview {
+    max-width: 290px;
+  }
+}

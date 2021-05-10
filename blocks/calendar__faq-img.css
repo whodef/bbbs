@@ -1,3 +1,9 @@
 .calendar__faq-img {
   width: 48px;
 }
+
+@media screen and (max-width: 1024px) {
+  .calendar__faq-img {
+    width: 40px;
+  }
+}

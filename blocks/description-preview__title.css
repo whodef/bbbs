@@ -7,3 +7,10 @@
   letter-spacing: 0.2px;
   color: var(--color-dark-gray);
 }
+
+@media screen and (max-width: 1024px) {
+  .description-preview__title {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}

@@ -9,3 +9,10 @@
   border-radius: 100px;
   font-family: 'ProtoGrotesk', Arial, Helvetica, serif;
 }
+
+@media screen and (max-width: 1024px) {
+  .calendar__save-button {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}

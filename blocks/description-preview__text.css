@@ -5,3 +5,11 @@
   line-height: 1.7;
   color: var(--color-default-text);
 }
+
+@media screen and (max-width: 1024px) {
+  .description-preview__text {
+    margin: 5px 0 0;
+    font-size: 15px;
+    line-height: 21px;
+  }
+}

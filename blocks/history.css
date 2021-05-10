@@ -11,12 +11,27 @@
   align-content: center;
   align-items: center;
   background: url("../images/history-image.jpg") no-repeat;
-  background-size: auto auto;
+  background-size: 100% 100%;
 }
 
 @media screen and (max-width: 1440px) {
   .history {
     max-width: 570px;
-    max-height: 414px;
+    background-size: cover;
+    object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .history {
+    max-width: 370px;
+    height: 382px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .history {
+    max-width: 390px;
+    height: 390px;
   }
 }

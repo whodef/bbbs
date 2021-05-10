@@ -10,3 +10,9 @@
   overflow: hidden;
   color: var(--color-default-background);
 }
+
+@media screen and (max-width: 1440px) {
+  .history__title {
+    display: none;
+  }
+}

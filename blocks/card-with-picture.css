@@ -6,13 +6,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-sizing: border-box;
   background-color: var(--color-yellow);
   border-radius: 30px;
+  position: relative;
 }
 
 @media screen and (max-width: 1440px) {
   .card-with-picture {
     max-width: 585px;
-    max-height: 629px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .card-with-picture {
+    max-width: 770px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card-with-picture {
+    max-width: 290px;
   }
 }

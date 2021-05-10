@@ -6,11 +6,15 @@
   max-height: 675px;
   box-sizing: border-box;
   border-radius: 30px;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 1440px) {
   .video__frame {
     max-width: 800px;
     max-height: 451px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    z-index: 2;
   }
 }

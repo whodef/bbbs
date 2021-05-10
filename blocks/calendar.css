@@ -15,3 +15,16 @@
     max-height: 414px;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .calendar {
+    max-width: 370px;
+    max-height: 382px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .calendar {
+    max-width: 290px;
+  }
+}

@@ -1,4 +1,5 @@
 .comment__text {
+  margin: 0;
   max-width: 770px;
   width: 100%;
   font-family: 'ProtoGrotesk', Arial, Helvetica, serif;
@@ -6,4 +7,12 @@
   font-size: 23px;
   line-height: 30px;
   color: var(--color-default-text);
+}
+
+@media screen and (max-width: 1024px) {
+  .comment__text {
+    max-width: 260px;
+    font-size: 17px;
+    line-height: 23px;
+  }
 }

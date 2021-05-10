@@ -20,4 +20,16 @@
     max-width: 770px;
     max-height: 189px;
   }
+  .comment:last-child {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .comment {
+    padding: 15px 30px 20px;
+  }
+  .comment:last-child {
+    display: flex;
+  }
 }

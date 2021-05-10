@@ -13,3 +13,16 @@
     max-width: 370px;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .social-media__widget-container {
+    max-height: 522px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .social-media__widget-container {
+    max-width: 290px;
+    max-height: 433px;
+  }
+}

@@ -9,3 +9,27 @@
   color: var(--color-default-text);
   font-family: 'ProtoGrotesk', Arial, Helvetica, serif;
 }
+
+@media screen and (max-width: 1440px) {
+  .calendar__form {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .calendar__form {
+    max-width: 370px;
+    max-height: 382px;
+    padding-top: 40px;
+    font-size: 12px;
+    line-height: 17px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .calendar__form {
+    margin-top: 20px;
+    height: 88px;
+    max-width: 390px;
+  }
+}
