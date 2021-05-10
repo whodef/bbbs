@@ -1,0 +1,14 @@
+.form-place__add-btn {
+  padding: 14px 20px;
+
+  border: 1px solid #A7A6A6;
+  border-radius: 100px;
+  cursor: pointer;
+  background: none;
+
+  font-family: 'ProtoGrotesk', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.27;
+  color: var(--color-light-gray);
+}

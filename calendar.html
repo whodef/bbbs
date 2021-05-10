@@ -16,7 +16,7 @@
         <nav class="menu menu_place_header">
           <ul class="menu__list menu__list_place_header">
             <li class="menu__item">
-              <a class="link menu__link" href="#" target = “_blank” rel="noopener noreferrer">Календарь</a>
+              <a class="link menu__link" href="./calendar.html" target = “_blank” rel="noopener noreferrer">Календарь</a>
             </li>
 
             <li class="menu__item">
@@ -104,7 +104,7 @@
         <div class="month-selector__element">Январь</div>
       </div>
       <div class="calendars-block">
-        <div class="calendar">
+        <div class="calendar calendar_successful-entry">
           <div class="calendar__container">
             <div class="calendar-card__header">
               <p class="calendar__note">Волонтёры + дети</p>
@@ -121,10 +121,10 @@
               <p class="calendar__form-data calendar__form-data_without-border">Александра, +7 926 356-78-90</p>
             </div>
 
+            <!-- Поменялась кнопка и убралась надпись о количестве мест -->
             <div class="calendar-card__do-something">
               <div class="calendar-card__do-contain">
-                <button class="calendar__save-button" type="submit">Записаться</button>
-                <span class="calendar__counter">Осталось 5 мест</span>
+                <button class="calendar__save-button calendar__save-button_cancel" type="submit">Отменить запись</button>
               </div>
               <a class="link">
                 <img class="calendar__faq-img" src="./images/icons/any-answers.svg" alt="Ответы на частые вопросы" />
@@ -309,5 +309,7 @@
       </nav>
     </div>
   </footer>
+
+  <script src="./scripts/index.js"></script>
 </body>
 </html>

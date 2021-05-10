@@ -1,0 +1,15 @@
+.form-place__btns {
+  padding: 0;
+  margin: 0;
+  border: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 1439px) {
+  .form-place__btns {
+    grid-column: 1/3;
+  }
+}

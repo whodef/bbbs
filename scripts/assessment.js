@@ -50,7 +50,7 @@
     positiveInputEmoji.classList.remove('assessment__emoji_type_positive-active');
     neutralInputEmoji.classList.remove('assessment__emoji_type_neutral-active');
 
-    assessmentDescription.textContent = "Что-пошло не так";
+    assessmentDescription.textContent = "Что-то пошло не так";
 
     assessmentDescription.classList.remove('assessment__description_type_positive');
     assessmentDescription.classList.remove('assessment__description_type_neutral');

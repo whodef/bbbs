@@ -11,3 +11,14 @@
   line-height: 1.27;
   letter-spacing: 0.2px;
 }
+
+@media screen and (max-width: 1366px) {
+  /* стили для для экранов с разрешением 1366px по ширине и меньше */
+  .month-selector__element {
+    width: 73px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 1.42;
+    padding-top: 10px;
+  }
+}

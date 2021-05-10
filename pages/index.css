@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
+
 @import url(../blocks/page.css);
 @import url(../blocks/page__section.css);
 
@@ -137,3 +138,34 @@
 @import url(../blocks/scrolling-element.css);
 
 @import url(../blocks/content.css);
+
+@import url(../blocks/events__container.css);
+@import url(../blocks/events__label.css);
+@import url(../blocks/event.css);
+@import url(../blocks/event__date.css);
+@import url(../blocks/event__day.css);
+@import url(../blocks/event__month.css);
+@import url(../blocks/event__description.css);
+
+@import url(../blocks/places.css);
+@import url(../blocks/places__container.css);
+@import url(../blocks/places__title.css);
+
+@import url(../blocks/form-place.css);
+@import url(../blocks/form-place__add-btn.css);
+@import url(../blocks/form-place__btns.css);
+@import url(../blocks/form-place__delete-btn.css);
+@import url(../blocks/form-place__info.css);
+@import url(../blocks/form-place__inputs.css);
+@import url(../blocks/form-place__photo-add-btn-label.css);
+@import url(../blocks/form-place__photo-add-btn.css);
+@import url(../blocks/form-place__photo-container.css);
+@import url(../blocks/form-place__place-date.css);
+@import url(../blocks/form-place__place-description.css);
+@import url(../blocks/form-place__place-name.css);
+
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/slider__list.css);
+@import url(../blocks/slider/slider__item.css);
+@import url(../blocks/slider/slider__arrow.css);
+@import url(../blocks/slider/slider__arrow-icon.css);
