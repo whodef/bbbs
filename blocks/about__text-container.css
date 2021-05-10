@@ -5,6 +5,7 @@
   background: url("../images/rectangle-text-container.svg") no-repeat;
   border-radius: 400px;
   display: flex;
+  align-items: center;
   overflow: hidden;
 }
 

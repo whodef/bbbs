@@ -11,6 +11,7 @@
 
 @media screen and (max-width: 1024px) {
   .about__text {
+    padding: 15px;
     margin: 30px auto;
     font-size: 19px;
     line-height: 23px
