@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
+
 @import url(../blocks/page.css);
 @import url(../blocks/page__section.css);
 
@@ -162,3 +163,9 @@
 @import url(../blocks/form-place__place-date.css);
 @import url(../blocks/form-place__place-description.css);
 @import url(../blocks/form-place__place-name.css);
+
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/slider__list.css);
+@import url(../blocks/slider/slider__item.css);
+@import url(../blocks/slider/slider__arrow.css);
+@import url(../blocks/slider/slider__arrow-icon.css);
