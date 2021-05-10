@@ -1,0 +1,10 @@
+.places__title {
+  margin: 0 auto 50px;
+  max-width: calc(100% - 200px*2);
+
+  text-align: center;
+  font-family: 'ProtoGrotesk', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 1.3;
+}

@@ -1,0 +1,6 @@
+.form-place__place-name {
+  padding: 0;
+  border: none;
+
+  height: min-content;
+}

@@ -1,0 +1,9 @@
+.form-place__info {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 20px;
+
+  padding: 30px;
+  background-color: var(--color-default-background);
+  border-radius: 30px;
+}

@@ -1,0 +1,7 @@
+.event {
+  margin-bottom: 50px;
+  padding: 30px;
+
+  border-radius: 30px;
+  background-color: var(--color-default-background);
+}
