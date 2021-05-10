@@ -6,6 +6,7 @@
   border-radius: 30px;
   background-color: white;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .trailer:nth-child(4) {
