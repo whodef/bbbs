@@ -26,6 +26,7 @@
 
 @import url(../blocks/main-information.css);
 @import url("../blocks/main-information-net.css");
+@import url("../blocks/main-information-stories-net.css");
 
 @import url(../blocks/about.css);
 @import url(../blocks/about__logo-container.css);

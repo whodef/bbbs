@@ -14,12 +14,13 @@
 
 @media screen and (max-width: 1024px) {
   .card-with-picture__image {
-    height: 378px;
+    height: 346px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .card-with-picture__image {
-    height: 174px;
+    max-width: 260px;
+    max-height: 174px;
   }
 }

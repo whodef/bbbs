@@ -1,5 +1,5 @@
 @media screen and (max-width: 1440px) {
-  .trailer_no-matter:nth-child(1) {
+  .trailer_no-matter:nth-child(3) {
     display: none;
   }
 }
@@ -10,8 +10,8 @@
   }
 }
 
-@media screen and (min-width: 320px) {
-  .trailer_no-matter:nth-child(3) {
+@media screen and (max-width: 320px) {
+  .trailer_no-matter:nth-child(1) {
     display: none;
   }
 }

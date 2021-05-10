@@ -2,7 +2,14 @@
   margin: 0;
   font-family:'PT Root UI', Arial, Helvetica, sans-serif;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 19px;
   letter-spacing: 0.2px;
   color: var(--color-default-text);
+}
+
+@media screen and (max-width: 320px) {
+  .calendar__date_month-and-week {
+    font-size: 12px;
+    line-height: 17px;
+  }
 }

@@ -7,3 +7,10 @@
   color: #464646;
   text-align: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .card-with-picture__subtitle {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}

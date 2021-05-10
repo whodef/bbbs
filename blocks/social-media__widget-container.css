@@ -16,12 +16,13 @@
 
 @media screen and (max-width: 1024px) {
   .social-media__widget-container {
-    max-height: 522px;
+    max-height: 545px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .social-media__widget-container {
+    margin: 0 auto;
     max-width: 290px;
     max-height: 433px;
   }

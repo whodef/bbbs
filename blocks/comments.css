@@ -7,3 +7,15 @@
   align-content: center;
   align-items: start;
 }
+
+@media screen and (max-width: 1024px) {
+  .comments {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .comments {
+    margin: 30px auto;
+  }
+}

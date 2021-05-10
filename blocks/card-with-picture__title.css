@@ -9,3 +9,10 @@
   display: flex;
   align-self: stretch;
 }
+
+@media screen and (max-width: 1024px) {
+  .card-with-picture__title {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}
