@@ -1,7 +1,6 @@
 .trailer__film-info {
   margin-top: 0;
-  margin-bottom: 17px;
-
+  overflow: hidden;
   text-align: center;
   font-weight: 400;
   font-size: 14px;
@@ -10,10 +9,16 @@
   color: var(--color-dark-gray);
 }
 
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 1440px) {
+  .trailer__film-info {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
   .trailer__film-info {
     font-size: 12px;
-    line-height: 1.41;
-    margin-bottom: 15px;
+    line-height: 17px;
   }
 }
