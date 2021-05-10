@@ -9,12 +9,14 @@
 @media screen and (max-width: 1440px) {
   .card-with-picture__image {
     max-height: 394px;
+    height: 394px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .card-with-picture__image {
     max-height: 346px;
+    height: 378px;
   }
 }
 
