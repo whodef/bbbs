@@ -1,0 +1,5 @@
+.month-selector__element_active {
+  width: 104px;
+  background-color: #000;
+  color: #FFF;
+}
