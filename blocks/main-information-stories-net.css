@@ -1,4 +1,4 @@
-.main-information-stories-net-net {
+.main-information-stories-net {
   margin: 0;
   padding: 0 0 30px;
   display: flex;
@@ -6,7 +6,8 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .main-information-stories-net-net {
+  .main-information-stories-net {
     flex-direction: column;
+    flex-wrap: nowrap;
   }
 }

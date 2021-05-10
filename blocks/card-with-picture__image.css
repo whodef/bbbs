@@ -8,13 +8,13 @@
 
 @media screen and (max-width: 1440px) {
   .card-with-picture__image {
-    height: 394px;
+    max-height: 394px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .card-with-picture__image {
-    height: 346px;
+    max-height: 346px;
   }
 }
 
