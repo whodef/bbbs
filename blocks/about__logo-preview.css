@@ -3,3 +3,18 @@
   width: 238px;
   height: 46px;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .about__logo-preview {
+    margin: 27px 0 0 17px;
+    max-width: 164px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about__logo-preview {
+    max-width: 154px;
+  }
+}
