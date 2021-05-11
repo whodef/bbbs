@@ -168,11 +168,11 @@
 @import url(../blocks/form-place__photo.css);
 @import url(../blocks/form-place__input.css);
 
-@import url(../blocks/slider/slider.css);
-@import url(../blocks/slider/slider__list.css);
-@import url(../blocks/slider/slider__item.css);
-@import url(../blocks/slider/slider__arrow.css);
-@import url(../blocks/slider/slider__arrow-icon.css);
+@import url(../blocks/slider.css);
+@import url(../blocks/slider__list.css);
+@import url(../blocks/slider__item.css);
+@import url(../blocks/slider__arrow.css);
+@import url(../blocks/slider__arrow-icon.css);
 
 @import url(../blocks/place.css);
 @import url(../blocks/place__assessment-emoji-label.css);

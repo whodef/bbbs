@@ -1,4 +1,5 @@
 // https://habr.com/ru/post/501258/
+// UPD: все идеально работало до тех пор, пока я не решил сделать из этого класс. Удачи.
 export default class Slider {
   constructor(selectors) {
     this._sliderWrapper = document.querySelector(selectors.wrapperSelector);

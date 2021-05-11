@@ -1,4 +1,5 @@
 .history {
+  position: relative;
   margin: 0;
   padding: 0;
   max-width: 870px;
@@ -11,7 +12,8 @@
   align-content: center;
   align-items: center;
   background: url("../images/history-image.jpg") no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
   cursor: pointer;
 }
 
