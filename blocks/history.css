@@ -4,14 +4,14 @@
   padding: 0;
   max-width: 870px;
   width: 100%;
-  position: relative;
   box-sizing: border-box;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
-  background: url("../images/history-image.jpg") no-repeat;
+  background-image: url("../images/history-image.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   cursor: pointer;

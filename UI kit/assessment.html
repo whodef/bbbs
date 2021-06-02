@@ -12,33 +12,30 @@
 <body class="page">
 
 
+<div class="assessment">
 
-  <div class="assessment">
+  <fieldset class="assessment__form-fieldset">
+    <label class="assessment__form-label" for="positive">
+      <input class="assessment__form-input" type="radio" name="emoji" id="positive">
+      <span class="assessment__form-pseudo-item assessment__emoji assessment__emoji_type_positive"></span>
+    </label>
 
-    <fieldset class="assessment__form-fieldset">
-      <label class="assessment__form-label" for="positive">
-        <input class="assessment__form-input" type="radio" name="emoji" id="positive">
-        <span class="assessment__form-pseudo-item assessment__emoji assessment__emoji_type_positive"></span>
-      </label>
+    <label class="assessment__form-label" for="neutral">
+      <input class="assessment__form-input" type="radio" name="emoji" id="neutral">
+      <span class="assessment__form-pseudo-item assessment__emoji assessment__emoji_type_neutral"></span>
+    </label>
 
-      <label class="assessment__form-label" for="neutral">
-        <input class="assessment__form-input" type="radio" name="emoji" id="neutral">
-        <span class="assessment__form-pseudo-item assessment__emoji assessment__emoji_type_neutral"></span>
-      </label>
+    <label class="assessment__form-label" for="negative">
+      <input class="assessment__form-input" type="radio" name="emoji" id="negative">
+      <span class="assessment__form-pseudo-item assessment__emoji assessment__emoji_type_negative"></span>
+    </label>
+  </fieldset>
 
-      <label class="assessment__form-label" for="negative">
-        <input class="assessment__form-input" type="radio" name="emoji" id="negative">
-        <span class="assessment__form-pseudo-item assessment__emoji assessment__emoji_type_negative"></span>
-      </label>
-    </fieldset>
+  <p class="assessment__description">Оцените проведенное время</p>
+</div>
 
-    <p class="assessment__description">Оцените проведенное время</p>
-  </div>
-
-  <!-- Без скрипта не работает -->
-  <script src="../scripts/assessment.js"></script>
-
-
+<!-- Без скрипта не работает -->
+<script src="../scripts/assessment.js"></script>
 
 
 </body>

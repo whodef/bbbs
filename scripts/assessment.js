@@ -1,5 +1,5 @@
 // UI kit: Assessment
-(function(){
+(function () {
   const assessmentContainer = document.querySelector('.assessment');
 
   const assessmentDescription = assessmentContainer.querySelector('.assessment__description');

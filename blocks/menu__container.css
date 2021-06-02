@@ -16,8 +16,8 @@
     width: 100%;
 
     background-color: var(--color-background);
-    border-radius: 0px 0px 30px 30px;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
   }
 
   .menu__container_opened {

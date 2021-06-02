@@ -1,4 +1,4 @@
-(function(){
+(function () {
   // =========
   //Всплывающее окно в меню
   //Заменил обычный .menu__item:hover sub-menu на JS.
@@ -50,8 +50,7 @@
 
     if (currentYpos < prevYpos && currentYpos > toggleHeaderHeight) {
       header.classList.add('header_fixed');
-    }
-    else {
+    } else {
       header.classList.remove('header_fixed');
       // Также здесь можно убрать меню бургер, если оно будет открыто:
       headerMenuContainer.classList.remove('menu__container_opened');

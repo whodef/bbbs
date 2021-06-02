@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 1919px) {
   .header__content {
-    max-width: calc(100% - 136px*2);
+    max-width: calc(100% - 136px * 2);
   }
 }
 
@@ -23,13 +23,13 @@
   .header__content {
     grid-template-columns: 30px auto 30px;
 
-    max-width: calc(100% - 128px*2);
+    max-width: calc(100% - 128px * 2);
     min-height: 50px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .header__content {
-    max-width: calc(100% - 15px*2);
+    max-width: calc(100% - 15px * 2);
   }
 }

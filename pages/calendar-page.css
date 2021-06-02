@@ -24,7 +24,6 @@
 
 @import url(../blocks/link.css);
 
-
 @import url(../blocks/calendars-block.css);
 @import url(../blocks/calendar-title.css);
 @import url(../blocks/month-selector.css);
@@ -50,8 +49,6 @@
 @import url(../blocks/calendar__title.css);
 @import url(../blocks/calendar_successful-entry.css);
 
-
-
 @import url(../blocks/footer.css);
 @import url(../blocks/footer__content.css);
 @import url(../blocks/footer__logo.css);
@@ -61,6 +58,5 @@
 @import url(../blocks/footer__link.css);
 @import url(../blocks/footer__button.css);
 @import url(../blocks/footer__separator.css);
-
 
 @import url(../blocks/content.css);

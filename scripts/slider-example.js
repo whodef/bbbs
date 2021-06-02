@@ -1,4 +1,5 @@
 import Slider from './slider.js';
+
 const selectors = {
   wrapperSelector: '.container-with-slider',
   sliderSelector: '.slider',

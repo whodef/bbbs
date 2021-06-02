@@ -12,10 +12,7 @@
 @media screen and (max-width: 1440px) {
   .about__text-container {
     background: #FF8585;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    border-top-left-radius: 70px;
-    border-top-right-radius: 70px;
+    border-radius: 70px 70px 30px 30px;
   }
 }
 
@@ -25,8 +22,8 @@
   }
 }
 
-@media screen and (max-width: 320px) {
-  .about__text-container {
+/*@media screen and (max-width: 320px) {*/
+/*  .about__text-container {*/
 
-  }
-}
+/*  }*/
+/*}*/

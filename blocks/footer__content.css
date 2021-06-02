@@ -12,13 +12,13 @@
 
 @media screen and (max-width: 1919px) {
   .footer__content {
-    max-width: calc(100% - 136px*2);
+    max-width: calc(100% - 136px * 2);
   }
 }
 
 @media screen and (max-width: 1439px) {
   .footer__content {
-    max-width: calc(100% - 128px*2);
+    max-width: calc(100% - 128px * 2);
     grid-template-areas:
       "logo"
       "menu"
@@ -32,6 +32,6 @@
 
 @media screen and (max-width: 1023px) {
   .footer__content {
-    max-width: calc(100% - 15px*2);
+    max-width: calc(100% - 15px * 2);
   }
 }

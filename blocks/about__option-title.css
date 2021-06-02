@@ -13,11 +13,11 @@
   background-color: var(--color-light-blue);
 }
 
-.about__option-title:nth-of-type(3){
+.about__option-title:nth-of-type(3) {
   background-color: var(--color-orange);
 }
 
-.about__option-title:nth-of-type(5){
+.about__option-title:nth-of-type(5) {
   background-color: var(--color-green);
 }
 

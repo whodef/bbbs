@@ -1,6 +1,5 @@
 .about__logo-container {
   margin: 0;
-  /*max-width: 395px;*/
   width: 100%;
   min-height: 156px;
   background: url("../images/about-logo-container.svg") no-repeat;

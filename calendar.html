@@ -1,306 +1,311 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Календарь</title>
   <link rel="stylesheet" href="./pages/calendar-page.css">
 </head>
 <body class="page">
-  <header class="header">
-    <div class="header__content">
-      <a class="link header__logo" href="./registered.html" title="На главную" target="_self" rel="noopener noreferrer"></a>
+<header class="header">
+  <div class="header__content">
+    <a class="link header__logo" href="./registered.html" title="На главную" target="_self"
+       rel="noopener noreferrer"></a>
 
-      <div class="menu__container">
-        <nav class="menu menu_place_header">
-          <ul class="menu__list menu__list_place_header">
-            <li class="menu__item">
-              <a class="link menu__link" href="./calendar.html" target="_self" rel="noopener noreferrer">Календарь</a>
-            </li>
-
-            <li class="menu__item">
-              <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Куда пойти</a>
-            </li>
-
-            <li class="menu__item">
-              <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Вопросы</a>
-            </li>
-
-            <li class="menu__item menu__item-with-sub-menu">
-              <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Читать и смотреть</a>
-
-              <div class="sub-menu">
-                <ul class="sub-menu__list">
-                  <li class="sub-menu__item">
-                    <a class="link sub-menu__link" href="#" target="_self">Справочник</a>
-                  </li>
-                  <li class="sub-menu__item">
-                    <a class="link sub-menu__link" href="#" target="_self">Видео</a>
-                  </li>
-                  <li class="sub-menu__item">
-                    <a class="link sub-menu__link" href="#" target="_self">Статьи</a>
-                  </li>
-                  <li class="sub-menu__item">
-                    <a class="link sub-menu__link" href="#" target="_self">Фильмы</a>
-                  </li>
-                  <li class="sub-menu__item">
-                    <a class="link sub-menu__link" href="#" target="_self">Книги</a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="menu__item">
-              <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Права детей</a>
-            </li>
-            <li class="menu__item">
-              <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Истории</a>
-            </li>
-          </ul>
-        </nav>
-
-        <nav class="menu menu_place_header menu_type_socials">
-          <ul class="menu__list menu__list_place_header">
-            <li class="menu__item">
-              <a class="link menu__link" href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
-            </li>
-            <li class="menu__item">
-              <a class="link menu__link" href="#" target="_blank" rel="noopener noreferrer">VKontakte</a>
-            </li>
-            <li class="menu__item">
-              <a class="link menu__link" href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
-            </li>
-            <li class="menu__item">
-              <a class="link menu__link" href="#" target="_blank" rel="noopener noreferrer">Уoutube</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-
-      <div class="header__buttons-container">
-        <button class="link header__button header__button_type_search" type="button"></button>
-        <div class="header__separator"></div>
-        <a class="link header__button header__button_type_account" href="./account.html" title="Личный кабинет" target = “_blank” rel="noopener noreferrer"></a>
-      </div>
-      <button class="link header__button header__button_type_burger-menu" type="button"></button>
-    </div>
-  </header>
-
-  <main class="content">
-
-    <section class="page__section">
-      <h1 class="calendar-title">Календарь</h1>
-      <div class="month-selector">
-        <button class="link month-selector__element month-selector__element_active">Декабря</button>
-        <button class="link month-selector__element">Январь</button>
-      </div>
-      <div class="calendars-block">
-        <div class="calendar calendar_successful-entry">
-          <div class="calendar__container">
-            <div class="calendar-card__header">
-              <p class="calendar__note">Волонтёры + дети</p>
-              <p class="calendar__date_month-and-week">декабрь / понедельник</p>
-            </div>
-            <div class="calendar__date">
-              <h1 class="calendar__title">Субботний meet up: учимся проходить интервью</h1>
-              <span class="calendar__date_number">05</span>
-            </div>
-
-            <div class="calendar__form">
-              <p class="calendar__form-data">12:00-14:00</p>
-              <p class="calendar__form-data">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
-              <p class="calendar__form-data calendar__form-data_without-border">Александра, +7 926 356-78-90</p>
-            </div>
-
-            <!-- Поменялась кнопка и убралась надпись о количестве мест -->
-            <div class="calendar-card__do-something">
-              <div class="calendar-card__do-contain">
-                <button class="link calendar__save-button link calendar__save-button_cancel" type="submit">Отменить запись</button>
-              </div>
-              <a class="link">
-                <img class="calendar__faq-img" src="./images/icons/any-answers.svg" alt="Ответы на частые вопросы" />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="calendar">
-          <div class="calendar__container">
-            <div class="calendar-card__header">
-              <p class="calendar__note">Волонтёры</p>
-              <p class="calendar__date_month-and-week">декабрь / понедельник</p>
-            </div>
-            <div class="calendar__date">
-              <h1 class="calendar__title">Ресурсная группа «Вовлечение в волонтёрство»</h1>
-              <span class="calendar__date_number">16</span>
-            </div>
-
-            <div class="calendar__form">
-              <p class="calendar__form-data">12:00-14:00</p>
-              <p class="calendar__form-data">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
-              <p class="calendar__form-data calendar__form-data_without-border">Александра, +7 926 356-78-90</p>
-            </div>
-
-            <div class="calendar-card__do-something">
-              <div class="calendar-card__do-contain">
-                <button class="link calendar__save-button link calendar__save-button_inactive" type="submit">Записаться</button>
-                <span class="calendar__counter">Запись закрыта</span>
-              </div>
-              <a class="link">
-                <img class="calendar__faq-img" src="./images/icons/any-answers.svg" alt="Ответы на частые вопросы" />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="calendar">
-          <div class="calendar__container">
-            <div class="calendar-card__header">
-              <p class="calendar__note">Волонтёры + дети</p>
-              <p class="calendar__date_month-and-week">декабрь / понедельник</p>
-            </div>
-            <div class="calendar__date">
-              <h1 class="calendar__title">Занятие с выпускниками: как составить резюме</h1>
-              <span class="calendar__date_number">20</span>
-            </div>
-
-            <div class="calendar__form">
-              <p class="calendar__form-data">12:00-14:00</p>
-              <p class="calendar__form-data">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
-              <p class="calendar__form-data calendar__form-data_without-border">Александра, +7 926 356-78-90</p>
-            </div>
-
-            <div class="calendar-card__do-something">
-              <div class="calendar-card__do-contain">
-                <button class="link calendar__save-button" type="submit">Записаться</button>
-                <span class="calendar__counter">Осталось 5 мест</span>
-              </div>
-              <a class="link">
-                <img class="calendar__faq-img" src="./images/icons/any-answers.svg" alt="Ответы на частые вопросы" />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="calendar">
-          <div class="calendar__container">
-            <div class="calendar-card__header">
-              <p class="calendar__note">Волонтёры + дети</p>
-              <p class="calendar__date_month-and-week">декабрь / понедельник</p>
-            </div>
-            <div class="calendar__date">
-              <h1 class="calendar__title">Субботний meet up: учимся проходить интервью</h1>
-              <span class="calendar__date_number">23</span>
-            </div>
-
-            <div class="calendar__form">
-              <p class="calendar__form-data">12:00-14:00</p>
-              <p class="calendar__form-data">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
-              <p class="calendar__form-data calendar__form-data_without-border">Александра, +7 926 356-78-90</p>
-            </div>
-
-            <div class="calendar-card__do-something">
-              <div class="calendar-card__do-contain">
-                <button class="link calendar__save-button" type="submit">Записаться</button>
-                <span class="calendar__counter">Осталось 5 мест</span>
-              </div>
-              <a class="link">
-                <img class="calendar__faq-img" src="./images/icons/any-answers.svg" alt="Ответы на частые вопросы" />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="calendar">
-          <div class="calendar__container">
-            <div class="calendar-card__header">
-              <p class="calendar__note">Волонтёры + дети</p>
-              <p class="calendar__date_month-and-week">декабрь / понедельник</p>
-            </div>
-            <div class="calendar__date">
-              <h1 class="calendar__title">Субботний meet up: учимся проходить интервью</h1>
-              <span class="calendar__date_number">28</span>
-            </div>
-
-            <div class="calendar__form">
-              <p class="calendar__form-data">12:00-14:00</p>
-              <p class="calendar__form-data">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
-              <p class="calendar__form-data calendar__form-data_without-border">Александра, +7 926 356-78-90</p>
-            </div>
-
-            <div class="calendar-card__do-something">
-              <div class="calendar-card__do-contain">
-                <button class="link calendar__save-button" type="submit">Записаться</button>
-                <span class="calendar__counter">Осталось 5 мест</span>
-              </div>
-              <a class="link">
-                <img class="calendar__faq-img" src="./images/icons/any-answers.svg" alt="Ответы на частые вопросы" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="footer__content">
-      <img class="footer__logo" src="./images/icons/footer-logo.svg" alt="Логотип БББС">
-      <a class="link footer__button" href="#" target="_blank" rel="noopener noreferrer">Помочь деньгами</a>
-      <div class="footer__labels">
-        <p class="footer__label footer__label_type_copyright">&copy; Старшие Братья Старшие Сестры</p>
-        <div class="footer__links">
-          <p class="footer__label">Разработка – студенты
-            <a class="link footer__link" href="#" target="_blank" rel="noopener noreferrer">Яндекс.Практикум</a>
-          </p>
-          <p class="footer__label">Концепция и дизайн –
-            <a class="link footer__link" href="#" target="_blank" rel="noopener noreferrer">krkr.design</a>
-          </p>
-        </div>
-      </div>
-
-      <nav class="menu menu_type_footer-nav">
-        <ul class="menu__list menu__list_place_footer">
-          <li class="menu__item menu__item_place_footer">
-            <a class="link menu__link" href="./about.html" target="_self" rel="noopener noreferrer">О проекте</a>
-          </li>
-          <li class="menu__item menu__item_place_footer">
+    <div class="menu__container">
+      <nav class="menu menu_place_header">
+        <ul class="menu__list menu__list_place_header">
+          <li class="menu__item">
             <a class="link menu__link" href="./calendar.html" target="_self" rel="noopener noreferrer">Календарь</a>
           </li>
-          <li class="menu__item menu__item_place_footer">
+
+          <li class="menu__item">
             <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Куда пойти</a>
           </li>
-          <li class="menu__item menu__item_place_footer">
+
+          <li class="menu__item">
             <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Вопросы</a>
           </li>
-          <li class="menu__item menu__item_place_footer">
+
+          <li class="menu__item menu__item-with-sub-menu">
             <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Читать и смотреть</a>
+
+            <div class="sub-menu">
+              <ul class="sub-menu__list">
+                <li class="sub-menu__item">
+                  <a class="link sub-menu__link" href="#" target="_self">Справочник</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a class="link sub-menu__link" href="#" target="_self">Видео</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a class="link sub-menu__link" href="#" target="_self">Статьи</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a class="link sub-menu__link" href="#" target="_self">Фильмы</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a class="link sub-menu__link" href="#" target="_self">Книги</a>
+                </li>
+              </ul>
+            </div>
           </li>
-          <li class="menu__item menu__item_place_footer">
+          <li class="menu__item">
             <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Права детей</a>
           </li>
-          <li class="menu__item menu__item_place_footer">
+          <li class="menu__item">
             <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Истории</a>
           </li>
         </ul>
-        <span class="footer__separator"></span>
       </nav>
 
-      <nav class="menu menu_type_footer-socials">
-        <ul class="menu__list menu__list_place_footer">
-          <li class="menu__item menu__item_place_footer">
+      <nav class="menu menu_place_header menu_type_socials">
+        <ul class="menu__list menu__list_place_header">
+          <li class="menu__item">
             <a class="link menu__link" href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
           </li>
-          <li class="menu__item menu__item_place_footer">
+          <li class="menu__item">
             <a class="link menu__link" href="#" target="_blank" rel="noopener noreferrer">VKontakte</a>
           </li>
-          <li class="menu__item menu__item_place_footer">
+          <li class="menu__item">
             <a class="link menu__link" href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
           </li>
-          <li class="menu__item menu__item_place_footer">
+          <li class="menu__item">
             <a class="link menu__link" href="#" target="_blank" rel="noopener noreferrer">Уoutube</a>
           </li>
         </ul>
       </nav>
     </div>
-  </footer>
 
-  <script src="./scripts/index.js"></script>
+    <div class="header__buttons-container">
+      <button class="link header__button header__button_type_search" type="button"></button>
+      <div class="header__separator"></div>
+      <a class="link header__button header__button_type_account" href="./account.html" title="Личный кабинет"
+         target=“_blank” rel="noopener noreferrer"></a>
+    </div>
+    <button class="link header__button header__button_type_burger-menu" type="button"></button>
+  </div>
+</header>
+
+<main class="content">
+
+  <section class="page__section">
+    <h1 class="calendar-title">Календарь</h1>
+    <div class="month-selector">
+      <button class="link month-selector__element month-selector__element_active">Декабря</button>
+      <button class="link month-selector__element">Январь</button>
+    </div>
+    <div class="calendars-block">
+      <div class="calendar calendar_successful-entry">
+        <div class="calendar__container">
+          <div class="calendar-card__header">
+            <p class="calendar__note">Волонтёры + дети</p>
+            <p class="calendar__date_month-and-week">декабрь / понедельник</p>
+          </div>
+          <div class="calendar__date">
+            <h1 class="calendar__title">Субботний meet up: учимся проходить интервью</h1>
+            <span class="calendar__date_number">05</span>
+          </div>
+
+          <div class="calendar__form">
+            <p class="calendar__form-data">12:00-14:00</p>
+            <p class="calendar__form-data">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+            <p class="calendar__form-data calendar__form-data_without-border">Александра, +7 926 356-78-90</p>
+          </div>
+
+          <!-- Поменялась кнопка и убралась надпись о количестве мест -->
+          <div class="calendar-card__do-something">
+            <div class="calendar-card__do-contain">
+              <button class="link calendar__save-button link calendar__save-button_cancel" type="submit">Отменить
+                запись
+              </button>
+            </div>
+            <a class="link">
+              <img class="calendar__faq-img" src="./images/icons/any-answers.svg" alt="Ответы на частые вопросы"/>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="calendar">
+        <div class="calendar__container">
+          <div class="calendar-card__header">
+            <p class="calendar__note">Волонтёры</p>
+            <p class="calendar__date_month-and-week">декабрь / понедельник</p>
+          </div>
+          <div class="calendar__date">
+            <h1 class="calendar__title">Ресурсная группа «Вовлечение в волонтёрство»</h1>
+            <span class="calendar__date_number">16</span>
+          </div>
+
+          <div class="calendar__form">
+            <p class="calendar__form-data">12:00-14:00</p>
+            <p class="calendar__form-data">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+            <p class="calendar__form-data calendar__form-data_without-border">Александра, +7 926 356-78-90</p>
+          </div>
+
+          <div class="calendar-card__do-something">
+            <div class="calendar-card__do-contain">
+              <button class="link calendar__save-button link calendar__save-button_inactive" type="submit">Записаться
+              </button>
+              <span class="calendar__counter">Запись закрыта</span>
+            </div>
+            <a class="link">
+              <img class="calendar__faq-img" src="./images/icons/any-answers.svg" alt="Ответы на частые вопросы"/>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="calendar">
+        <div class="calendar__container">
+          <div class="calendar-card__header">
+            <p class="calendar__note">Волонтёры + дети</p>
+            <p class="calendar__date_month-and-week">декабрь / понедельник</p>
+          </div>
+          <div class="calendar__date">
+            <h1 class="calendar__title">Занятие с выпускниками: как составить резюме</h1>
+            <span class="calendar__date_number">20</span>
+          </div>
+
+          <div class="calendar__form">
+            <p class="calendar__form-data">12:00-14:00</p>
+            <p class="calendar__form-data">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+            <p class="calendar__form-data calendar__form-data_without-border">Александра, +7 926 356-78-90</p>
+          </div>
+
+          <div class="calendar-card__do-something">
+            <div class="calendar-card__do-contain">
+              <button class="link calendar__save-button" type="submit">Записаться</button>
+              <span class="calendar__counter">Осталось 5 мест</span>
+            </div>
+            <a class="link">
+              <img class="calendar__faq-img" src="./images/icons/any-answers.svg" alt="Ответы на частые вопросы"/>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="calendar">
+        <div class="calendar__container">
+          <div class="calendar-card__header">
+            <p class="calendar__note">Волонтёры + дети</p>
+            <p class="calendar__date_month-and-week">декабрь / понедельник</p>
+          </div>
+          <div class="calendar__date">
+            <h1 class="calendar__title">Субботний meet up: учимся проходить интервью</h1>
+            <span class="calendar__date_number">23</span>
+          </div>
+
+          <div class="calendar__form">
+            <p class="calendar__form-data">12:00-14:00</p>
+            <p class="calendar__form-data">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+            <p class="calendar__form-data calendar__form-data_without-border">Александра, +7 926 356-78-90</p>
+          </div>
+
+          <div class="calendar-card__do-something">
+            <div class="calendar-card__do-contain">
+              <button class="link calendar__save-button" type="submit">Записаться</button>
+              <span class="calendar__counter">Осталось 5 мест</span>
+            </div>
+            <a class="link">
+              <img class="calendar__faq-img" src="./images/icons/any-answers.svg" alt="Ответы на частые вопросы"/>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="calendar">
+        <div class="calendar__container">
+          <div class="calendar-card__header">
+            <p class="calendar__note">Волонтёры + дети</p>
+            <p class="calendar__date_month-and-week">декабрь / понедельник</p>
+          </div>
+          <div class="calendar__date">
+            <h1 class="calendar__title">Субботний meet up: учимся проходить интервью</h1>
+            <span class="calendar__date_number">28</span>
+          </div>
+
+          <div class="calendar__form">
+            <p class="calendar__form-data">12:00-14:00</p>
+            <p class="calendar__form-data">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+            <p class="calendar__form-data calendar__form-data_without-border">Александра, +7 926 356-78-90</p>
+          </div>
+
+          <div class="calendar-card__do-something">
+            <div class="calendar-card__do-contain">
+              <button class="link calendar__save-button" type="submit">Записаться</button>
+              <span class="calendar__counter">Осталось 5 мест</span>
+            </div>
+            <a class="link">
+              <img class="calendar__faq-img" src="./images/icons/any-answers.svg" alt="Ответы на частые вопросы"/>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer__content">
+    <img class="footer__logo" src="./images/icons/footer-logo.svg" alt="Логотип БББС">
+    <a class="link footer__button" href="#" target="_blank" rel="noopener noreferrer">Помочь деньгами</a>
+    <div class="footer__labels">
+      <p class="footer__label footer__label_type_copyright">&copy; Старшие Братья Старшие Сестры</p>
+      <div class="footer__links">
+        <p class="footer__label">Разработка – студенты
+          <a class="link footer__link" href="#" target="_blank" rel="noopener noreferrer">Яндекс.Практикум</a>
+        </p>
+        <p class="footer__label">Концепция и дизайн –
+          <a class="link footer__link" href="#" target="_blank" rel="noopener noreferrer">krkr.design</a>
+        </p>
+      </div>
+    </div>
+
+    <nav class="menu menu_type_footer-nav">
+      <ul class="menu__list menu__list_place_footer">
+        <li class="menu__item menu__item_place_footer">
+          <a class="link menu__link" href="./about.html" target="_self" rel="noopener noreferrer">О проекте</a>
+        </li>
+        <li class="menu__item menu__item_place_footer">
+          <a class="link menu__link" href="./calendar.html" target="_self" rel="noopener noreferrer">Календарь</a>
+        </li>
+        <li class="menu__item menu__item_place_footer">
+          <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Куда пойти</a>
+        </li>
+        <li class="menu__item menu__item_place_footer">
+          <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Вопросы</a>
+        </li>
+        <li class="menu__item menu__item_place_footer">
+          <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Читать и смотреть</a>
+        </li>
+        <li class="menu__item menu__item_place_footer">
+          <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Права детей</a>
+        </li>
+        <li class="menu__item menu__item_place_footer">
+          <a class="link menu__link" href="#" target="_self" rel="noopener noreferrer">Истории</a>
+        </li>
+      </ul>
+      <span class="footer__separator"></span>
+    </nav>
+
+    <nav class="menu menu_type_footer-socials">
+      <ul class="menu__list menu__list_place_footer">
+        <li class="menu__item menu__item_place_footer">
+          <a class="link menu__link" href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
+        </li>
+        <li class="menu__item menu__item_place_footer">
+          <a class="link menu__link" href="#" target="_blank" rel="noopener noreferrer">VKontakte</a>
+        </li>
+        <li class="menu__item menu__item_place_footer">
+          <a class="link menu__link" href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </li>
+        <li class="menu__item menu__item_place_footer">
+          <a class="link menu__link" href="#" target="_blank" rel="noopener noreferrer">Уoutube</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+<script src="./scripts/index.js"></script>
 </body>
 </html>
