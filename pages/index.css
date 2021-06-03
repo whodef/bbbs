@@ -62,7 +62,6 @@
 @import url(../blocks/comment.css);
 @import url(../blocks/comment__tag.css);
 @import url(../blocks/comment__text.css);
-@import url(../blocks/comment__contain-tag.css);
 
 @import url(../blocks/description-prewiev.css);
 @import url(../blocks/description-preview__scroll-contain.css);
