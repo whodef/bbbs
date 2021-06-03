@@ -5,7 +5,7 @@
   font-weight: 400;
   line-height: 19px;
   color: var(--color-default-text);
-  font-family: 'PT Root UI', Arial, Helvetica, serif;
+  font-family: 'PTRootUI', Arial, Helvetica, sans-serif;
 }
 
 @media screen and (max-width: 1024px) {
