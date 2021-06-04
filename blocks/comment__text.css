@@ -9,7 +9,7 @@
   color: var(--color-default-text);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1439px) {
   .comment__text {
     max-width: 260px;
     font-size: 17px;
@@ -17,9 +17,8 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1023px) {
   .comment__text {
     font-size: 19px;
-    line-height: 23px;
   }
 }

@@ -16,18 +16,28 @@
 
 @media screen and (max-width: 1440px) {
   .about {
-
+    max-width: 570px;
+    max-height: 414px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .about {
+    /*margin: 0 30px 0 0;*/
     max-width: 370px;
     max-height: 382px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1023px) {
+  .about {
+    margin: 0 auto 30px;
+    max-width: 770px;
+    max-height: 414px;
+  }
+}
+
+@media screen and (max-width: 350px) {
   .about {
     margin-bottom: 30px;
     max-width: 290px;

@@ -23,6 +23,7 @@
 
 @media screen and (max-width: 1024px) {
   .description-preview {
+    margin: 0 auto;
     padding: 30px 15px 30px;
     max-width: 770px;
     height: 188px;

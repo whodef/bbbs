@@ -22,7 +22,7 @@
 
 @media screen and (max-width: 1024px) {
   .video__description {
-    margin-top: -10px;
+    margin: -10px auto 0;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     max-width: 770px;

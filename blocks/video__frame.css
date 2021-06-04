@@ -11,7 +11,8 @@
 
 @media screen and (max-width: 1440px) {
   .video__frame {
-    max-width: 800px;
+    margin: 0 auto;
+    max-width: 770px;
     max-height: 451px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;

@@ -22,6 +22,7 @@
 
 @media screen and (max-width: 1024px) {
   .card-with-picture {
+    margin: 0 auto;
     padding: 15px 15px 50px;
     max-width: 770px;
     height: 537px;

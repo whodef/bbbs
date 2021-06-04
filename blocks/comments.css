@@ -14,8 +14,11 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 780px) {
   .comments {
     margin: 30px auto;
+  }
+  .comments:first-child {
+    margin-top: 30px;
   }
 }
