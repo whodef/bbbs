@@ -12,24 +12,24 @@
 }
 
 .header__button_type_account {
-  background-image: url(../images/icons/account-icon.svg);
+  background-image: url(../../images/icons/account-icon.svg);
 }
 
 .header__button_type_search {
-  background-image: url(../images/icons/search-icon.svg);
+  background-image: url(../../images/icons/search-icon.svg);
 }
 
 .header__button_type_close-menu {
   display: none;
 
-  background-image: url(../images/icons/cross.svg);
+  background-image: url(../../images/icons/cross.svg);
 }
 
 .header__button_type_burger-menu {
   display: none;
 
   background-size: 30px 20px;
-  background-image: url(../images/icons/burger.svg);
+  background-image: url(../../images/icons/burger.svg);
 }
 
 @media screen and (max-width: 1439px) {

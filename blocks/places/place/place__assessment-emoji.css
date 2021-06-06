@@ -1,0 +1,19 @@
+.place__assessment-emoji {
+  margin-right: 15px;
+  width: 26px;
+  height: 26px;
+
+  background-size: cover;
+}
+
+.place__assessment-emoji_type_positive {
+  background-image: url(../../../images/icons/assessment-emoji-positive-active.svg);
+}
+
+.place__assessment-emoji_type_neutral {
+  background-image: url(../../../images/icons/assessment-emoji-neutral-active.svg);
+}
+
+.place__assessment-emoji_type_negative {
+  background-image: url(../../../images/icons/assessment-emoji-negative-active.svg);
+}
