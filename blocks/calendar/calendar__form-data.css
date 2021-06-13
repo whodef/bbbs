@@ -9,6 +9,7 @@
   letter-spacing: 0.2px;
   line-height: 19px;
   font-family: 'ProtoGrotesk', Arial, Helvetica, sans-serif;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1024px) {
@@ -16,6 +17,5 @@
     margin: 5px 0 0;
     font-size: 12px;
     line-height: 17px;
-    overflow: hidden;
   }
 }
